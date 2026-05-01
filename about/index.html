@@ -364,9 +364,7 @@
     
       <div class="min-h-[148px]"></div>
 <div class="fixed inset-x-0 z-100">
-  <div
-    id="menu-blur"
-    class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl bg-neutral/25 dark:bg-neutral-800/25"></div>
+  <div id="nav-blur" class="absolute inset-x-0 top-0 h-full shadow-sm" style="backdrop-filter: blur(var(--nav-blur)); -webkit-backdrop-filter: blur(var(--nav-blur)); background: var(--nav-bg-dark)"></div>
   <div class="relative m-auto leading-7 max-w-7xl px-6 sm:px-14 md:px-24 lg:px-32">
     <div class="main-menu flex items-center w-full gap-2 p-1 pl-0">
   
@@ -398,15 +396,15 @@
       
   
     <a
-      href="/docs/"
+      href="/posts/"
       
       class="flex items-center bf-icon-color-hover"
-      aria-label="文档"
-      title="欢迎来到 Blowfish! :tada:">
+      aria-label="文章"
+      title="文章">
       
       
         <span class="text-base font-medium break-normal">
-          文档
+          文章
         </span>
       
     </a>
@@ -425,6 +423,24 @@
       
         <span class="text-base font-medium break-normal">
           关于
+        </span>
+      
+    </a>
+  
+
+    
+      
+  
+    <a
+      href="/docs/"
+      
+      class="flex items-center bf-icon-color-hover"
+      aria-label="文档"
+      title="欢迎来到 Blowfish! :tada:">
+      
+      
+        <span class="text-base font-medium break-normal">
+          文档
         </span>
       
     </a>
@@ -583,13 +599,13 @@
     
     <div class="px-2">
       <a
-        href="/docs/"
-        aria-label="文档"
+        href="/posts/"
+        aria-label="文章"
         
         class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
         
-        <span title="欢迎来到 Blowfish! :tada:" class="text-2xl font-bold tracking-tight">
-          文档
+        <span title="文章" class="text-2xl font-bold tracking-tight">
+          文章
         </span>
         
       </a>
@@ -607,6 +623,23 @@
         
         <span title="关于" class="text-2xl font-bold tracking-tight">
           关于
+        </span>
+        
+      </a>
+
+      
+    </div>
+  
+    
+    <div class="px-2">
+      <a
+        href="/docs/"
+        aria-label="文档"
+        
+        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+        
+        <span title="欢迎来到 Blowfish! :tada:" class="text-2xl font-bold tracking-tight">
+          文档
         </span>
         
       </a>
@@ -717,14 +750,11 @@
 
   </div>
 </div>
-
-
-<script
-  type="text/javascript"
-  src="/js/background-blur.min.605b3b942818f0ab5a717ae446135ec46b8ee5a2ad12ae56fb90dc2a76ce30c388f9fec8bcc18db15bd47e3fa8a09d779fa12aa9c184cf614a315bc72c6c163d.js"
-  integrity="sha512-YFs7lCgY8KtacXrkRhNexGuO5aKtEq5W&#43;5DcKnbOMMOI&#43;f7IvMGNsVvUfj&#43;ooJ13n6EqqcGEz2FKMVvHLGwWPQ=="
-  data-blur-id="menu-blur"></script>
-
+<style>
+  .main-menu a, .main-menu .bf-icon-color-hover, .main-menu span, .main-menu button {
+    color: var(--nav-font-dark) !important;
+  }
+</style>
     
     <div class="relative flex flex-col grow">
       <main id="main-content" class="grow">
@@ -903,8 +933,8 @@
 }
 
 .sidebar-card {
-  background: rgba(22, 27, 34, 0.92);
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: var(--sidebar-card-bg, rgba(22, 27, 34, 0.92));
+  border: 1px solid var(--sidebar-card-border, rgba(255, 255, 255, 0.06));
   border-radius: 14px;
   padding: 16px;
   backdrop-filter: blur(12px);
@@ -917,7 +947,7 @@
 }
 
 .sidebar-card:hover {
-  border-color: rgba(255, 255, 255, 0.1);
+  border-color: var(--sidebar-card-hover-border, rgba(255, 255, 255, 0.1));
   box-shadow:
     0 6px 24px rgba(0, 0, 0, 0.3),
     inset 0 1px 0 rgba(255, 255, 255, 0.05);
@@ -946,7 +976,7 @@
   width: 100%;
   aspect-ratio: 16 / 10;
   overflow: hidden;
-  background: linear-gradient(145deg, #161b22 0%, #21262d 50%, #161b22 100%);
+  background: var(--avatar-wrap-bg, linear-gradient(145deg, #161b22 0%, #21262d 50%, #161b22 100%));
 }
 
 .profile-avatar {
@@ -1012,7 +1042,7 @@
 .profile-name {
   font-size: 17px;
   font-weight: 700;
-  color: #e6edf3 !important;
+  color: var(--profile-name, #e6edf3) !important;
   text-decoration: none !important;
   display: block;
   margin-bottom: 4px;
@@ -1026,7 +1056,7 @@
 
 .profile-bio {
   font-size: 12.5px;
-  color: #8b949e;
+  color: var(--profile-bio, #8b949e);
   margin: 0 0 12px 0;
   line-height: 1.5;
   display: -webkit-box;
@@ -1041,7 +1071,7 @@
   justify-content: center;
   gap: 20px;
   padding-top: 12px;
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  border-top: 1px solid var(--profile-stats-border, rgba(255, 255, 255, 0.06));
 }
 
 .stat-item {
@@ -1054,13 +1084,13 @@
 .stat-value {
   font-size: 18px;
   font-weight: 800;
-  color: #e6edf3;
+  color: var(--stat-value, #e6edf3);
   line-height: 1.2;
 }
 
 .stat-label {
   font-size: 10.5px;
-  color: #6e7681;
+  color: var(--stat-label, #6e7681);
   text-transform: uppercase;
   letter-spacing: 0.8px;
   font-weight: 500;
@@ -1069,13 +1099,13 @@
 .stat-divider {
   width: 1px;
   height: 30px;
-  background: linear-gradient(to bottom, transparent, rgba(255,255,255,0.1), transparent);
+  background: linear-gradient(to bottom, transparent, var(--stat-divider, rgba(255,255,255,0.1)), transparent);
 }
 
 .card-title {
   font-size: 13.5px;
   font-weight: 700;
-  color: #e6edf3;
+  color: var(--card-title, #e6edf3);
   margin: 0 0 12px 0;
   letter-spacing: 0.3px;
 }
@@ -1093,8 +1123,8 @@
   gap: 4px;
   padding: 12px 8px;
   border-radius: 10px;
-  background: rgba(13, 17, 23, 0.7);
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  background: var(--stat-box-bg, rgba(13, 17, 23, 0.7));
+  border: 1px solid var(--stat-box-border, rgba(255, 255, 255, 0.05));
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
@@ -1115,8 +1145,8 @@
 
 .stat-box:hover {
   transform: scale(1.04);
-  border-color: rgba(255, 255, 255, 0.1);
-  background: rgba(22, 27, 34, 0.85);
+  border-color: var(--stat-box-hover-border, rgba(255, 255, 255, 0.1));
+  background: var(--stat-box-hover-bg, rgba(22, 27, 34, 0.85));
 }
 
 .stat-stars:hover { box-shadow: 0 0 18px rgba(210, 153, 34, 0.15); }
@@ -1138,13 +1168,13 @@
 .stat-number {
   font-size: 19px;
   font-weight: 900;
-  color: #f0f6fc;
+  color: var(--stat-number, #f0f6fc);
   line-height: 1;
 }
 
 .stat-text {
   font-size: 9.5px;
-  color: #6e7681;
+  color: var(--stat-text, #6e7681);
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 600;
@@ -1173,7 +1203,7 @@
 .repos-title {
   font-size: 13.5px;
   font-weight: 700;
-  color: #e6edf3;
+  color: var(--repos-title, #e6edf3);
   margin: 0;
   letter-spacing: 0.3px;
 }
@@ -1188,8 +1218,8 @@
   display: block;
   padding: 11px 13px;
   border-radius: 10px;
-  background: rgba(22, 27, 34, 0.88);
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: var(--repo-link-bg, rgba(22, 27, 34, 0.88));
+  border: 1px solid var(--repo-link-border, rgba(255, 255, 255, 0.06));
   text-decoration: none !important;
   transition: all 0.3s ease;
   position: relative;
@@ -1211,16 +1241,16 @@
 .repo-link:hover::before { opacity: 1; }
 
 .repo-link:hover {
-  border-color: rgba(255, 255, 255, 0.12);
+  border-color: var(--repo-link-hover-border, rgba(255, 255, 255, 0.12));
   transform: translateX(3px);
   box-shadow: 0 3px 16px rgba(0, 0, 0, 0.25);
-  background: rgba(33, 38, 45, 0.95);
+  background: var(--repo-link-hover-bg, rgba(33, 38, 45, 0.95));
 }
 
 .repo-name {
   font-size: 13.5px;
   font-weight: 700;
-  color: #e6edf3;
+  color: var(--repo-name, #e6edf3);
   margin: 0 0 3px 0;
   white-space: nowrap;
   overflow: hidden;
@@ -1230,7 +1260,7 @@
 
 .repo-desc {
   font-size: 11.5px;
-  color: #8b949e;
+  color: var(--repo-desc, #8b949e);
   margin: 0 0 7px 0;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -1245,7 +1275,7 @@
   align-items: center;
   gap: 12px;
   font-size: 10.5px;
-  color: #6e7681;
+  color: var(--repo-meta, #6e7681);
   position: relative;
 }
 
@@ -1277,23 +1307,71 @@
   gap: 8px;
   padding: 20px;
   border-radius: 10px;
-  background: rgba(22, 27, 34, 0.88);
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: var(--repo-placeholder-bg, rgba(22, 27, 34, 0.88));
+  border: 1px solid var(--repo-placeholder-border, rgba(255, 255, 255, 0.06));
   font-size: 12px;
-  color: #6e7681;
+  color: var(--repo-placeholder-color, #6e7681);
 }
 
 .loading-spinner {
   width: 16px;
   height: 16px;
-  border: 2px solid rgba(255, 255, 255, 0.08);
-  border-top-color: #6e7681;
+  border: 2px solid var(--spinner-border, rgba(255, 255, 255, 0.08));
+  border-top-color: var(--spinner-top, #6e7681);
   border-radius: 50%;
   animation: spin 0.8s linear infinite;
 }
 
 @keyframes spin {
   to { transform: rotate(360deg); }
+}
+
+ 
+html:not(.dark) .sidebar-card {
+  --sidebar-card-bg: rgba(255, 255, 255, 0.92);
+  --sidebar-card-border: rgba(0, 0, 0, 0.08);
+  --sidebar-card-hover-border: rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+html:not(.dark) .sidebar-card:hover {
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+html:not(.dark) .profile-name { --profile-name: #1f2328; }
+html:not(.dark) .profile-bio { --profile-bio: #656d76; }
+html:not(.dark) .profile-stats { --profile-stats-border: rgba(0, 0, 0, 0.06); }
+html:not(.dark) .stat-value { --stat-value: #1f2328; }
+html:not(.dark) .stat-label { --stat-label: #8c959f; }
+html:not(.dark) .stat-divider { --stat-divider: rgba(0, 0, 0, 0.08); }
+html:not(.dark) .card-title { --card-title: #1f2328; }
+html:not(.dark) .stat-box {
+  --stat-box-bg: rgba(246, 248, 250, 0.8);
+  --stat-box-border: rgba(0, 0, 0, 0.06);
+  --stat-box-hover-border: rgba(0, 0, 0, 0.12);
+  --stat-box-hover-bg: rgba(234, 238, 242, 0.95);
+}
+html:not(.dark) .stat-number { --stat-number: #1f2328; }
+html:not(.dark) .stat-text { --stat-text: #8c959f; }
+html:not(.dark) .repos-title { --repos-title: #1f2328; }
+html:not(.dark) .repo-link {
+  --repo-link-bg: rgba(255, 255, 255, 0.88);
+  --repo-link-border: rgba(0, 0, 0, 0.06);
+  --repo-link-hover-border: rgba(0, 0, 0, 0.12);
+  --repo-link-hover-bg: rgba(246, 248, 250, 0.95);
+}
+html:not(.dark) .repo-name { --repo-name: #1f2328; }
+html:not(.dark) .repo-desc { --repo-desc: #656d76; }
+html:not(.dark) .repo-meta { --repo-meta: #8c959f; }
+html:not(.dark) .repo-placeholder {
+  --repo-placeholder-bg: rgba(255, 255, 255, 0.88);
+  --repo-placeholder-border: rgba(0, 0, 0, 0.06);
+  --repo-placeholder-color: #8c959f;
+}
+html:not(.dark) .loading-spinner {
+  --spinner-border: rgba(0, 0, 0, 0.08);
+  --spinner-top: #8c959f;
+}
+html:not(.dark) .profile-avatar-wrap {
+  --avatar-wrap-bg: linear-gradient(145deg, #e2e8f0 0%, #f0f2f5 50%, #e2e8f0 100%);
 }
 </style>
 
@@ -1402,8 +1480,10 @@
   function renderStatsImages() {
     var trophyImg = document.getElementById('github-trophy-img');
     if (trophyImg) {
+      var isDark = document.documentElement.classList.contains('dark');
+      var theme = isDark ? 'onedark' : 'flat';
       trophyImg.src = 'https://github-profile-trophy.vercel.app/?username=' + USERNAME +
-        '&theme=onedark&row=2&column=2&margin-w=3&margin-h=3&no-frame=true&rank=-C,-?';
+        '&theme=' + theme + '&row=2&column=2&margin-w=3&margin-h=3&no-frame=true&rank=-C,-?';
     }
   }
 
@@ -1412,7 +1492,7 @@
     if (!container) return;
 
     if (!repos || repos.length === 0) {
-      container.innerHTML = '<p style="font-size:12px;color:#6e7681;margin:0;text-align:center;padding:16px;">暂无仓库</p>';
+      container.innerHTML = '<p style="font-size:12px;color:var(--repo-placeholder-color,#6e7681);margin:0;text-align:center;padding:16px;">暂无仓库</p>';
       return;
     }
 
@@ -1497,7 +1577,7 @@
         console.error('[GH Sidebar] Error:', e);
         if (!cachedRepos && !cachedProfile) {
           var c = document.getElementById('github-repos');
-          if (c) c.innerHTML = '<p style="font-size:12px;color:#da3633;margin:0;text-align:center;padding:16px;">加载失败，请稍后刷新</p>';
+          if (c) c.innerHTML = '<p style="font-size:12px;color:var(--repo-placeholder-color,#6e7681);margin:0;text-align:center;padding:16px;">加载失败，请稍后刷新</p>';
         }
       });
   }
@@ -1664,13 +1744,13 @@ git.<span class="fn">commit</span>({
   font-size: 38px;
   font-weight: 900;
   margin: 0 0 6px;
-  color: #e6edf3;
+  color: var(--about-name, #e6edf3);
   letter-spacing: -0.5px;
 }
 
 .about-role {
   font-size: 15px;
-  color: #7d8590;
+  color: var(--about-role, #7d8590);
   margin: 0 0 4px;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -1679,7 +1759,7 @@ git.<span class="fn">commit</span>({
 
 .about-sub {
   font-size: 13px;
-  color: #484f58;
+  color: var(--about-sub, #484f58);
   margin: 0;
   font-style: italic;
 }
@@ -1687,7 +1767,7 @@ git.<span class="fn">commit</span>({
 .about-divider {
   height: 1px;
   margin: 28px 0;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.08) 20%, rgba(255,255,255,0.08) 80%, transparent);
+  background: linear-gradient(90deg, transparent, var(--divider-color, rgba(255,255,255,0.08)) 20%, var(--divider-color, rgba(255,255,255,0.08)) 80%, transparent);
 }
 .about-divider.thin { margin: 20px 0; opacity: 0.5; }
 
@@ -1701,7 +1781,7 @@ git.<span class="fn">commit</span>({
   gap: 12px;
   font-size: 17px;
   font-weight: 700;
-  color: #e6edf3;
+  color: var(--heading-color, #e6edf3);
   margin: 0 0 14px;
 }
 
@@ -1713,7 +1793,7 @@ git.<span class="fn">commit</span>({
 }
 
 .section-desc {
-  color: #8b949e;
+  color: var(--desc-color, #8b949e);
   line-height: 1.75;
   margin: 0 0 18px;
   font-size: 14.5px;
@@ -1730,9 +1810,9 @@ git.<span class="fn">commit</span>({
   border-radius: 6px;
   font-size: 12.5px;
   font-weight: 600;
-  color: #8b949e;
-  background: rgba(110, 118, 129, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  color: var(--tag-color, #8b949e);
+  background: var(--tag-bg, rgba(110, 118, 129, 0.1));
+  border: 1px solid var(--tag-border, rgba(255, 255, 255, 0.05));
   transition: all 0.25s ease;
   cursor: default;
 }
@@ -1752,14 +1832,14 @@ git.<span class="fn">commit</span>({
   gap: 14px;
   padding: 12px 16px;
   border-radius: 10px;
-  background: rgba(33, 38, 45, 0.6);
+  background: var(--fitem-bg, rgba(33, 38, 45, 0.6));
   border: 1px solid transparent;
   transition: all 0.25s ease;
 }
 
 .f-item:hover {
   border-color: rgba(210, 153, 34, 0.15);
-  background: rgba(33, 38, 45, 0.9);
+  background: var(--fitem-hover-bg, rgba(33, 38, 45, 0.9));
   transform: translateX(6px);
 }
 
@@ -1771,19 +1851,19 @@ git.<span class="fn">commit</span>({
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  background: rgba(110, 118, 129, 0.08);
+  background: var(--ficon-bg, rgba(110, 118, 129, 0.08));
   flex-shrink: 0;
 }
 
 .f-info { display: flex; flex-direction: column; gap: 2px; }
-.f-info strong { color: #e6edf3; font-size: 14px; font-weight: 600; }
-.f-info small { color: #6e7681; font-size: 12.5px; }
+.f-info strong { color: var(--finfo-strong, #e6edf3); font-size: 14px; font-weight: 600; }
+.f-info small { color: var(--finfo-small, #6e7681); font-size: 12.5px; }
 
 .code-block-wrap {
   border-radius: 10px;
   overflow: hidden;
-  background: rgba(13, 17, 23, 0.7);
-  border: 1px solid rgba(255, 255, 255, 0.04);
+  background: var(--code-bg, rgba(13, 17, 23, 0.7));
+  border: 1px solid var(--code-border, rgba(255, 255, 255, 0.04));
 }
 
 .code-bar {
@@ -1791,8 +1871,8 @@ git.<span class="fn">commit</span>({
   align-items: center;
   gap: 7px;
   padding: 10px 16px;
-  background: rgba(22, 27, 34, 0.9);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  background: var(--codebar-bg, rgba(22, 27, 34, 0.9));
+  border-bottom: 1px solid var(--code-border, rgba(255, 255, 255, 0.04));
 }
 
 .dot {
@@ -1806,7 +1886,7 @@ git.<span class="fn">commit</span>({
 .c-fn {
   margin-left: auto;
   font-size: 12px;
-  color: #484f58;
+  color: var(--cfn-color, #484f58);
   font-family: 'Courier New', monospace;
 }
 
@@ -1816,7 +1896,7 @@ git.<span class="fn">commit</span>({
   font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, monospace;
   font-size: 13px;
   line-height: 1.8;
-  color: #e6edf3;
+  color: var(--code-color, #e6edf3);
   overflow-x: auto;
   background: transparent;
 }
@@ -1827,8 +1907,8 @@ git.<span class="fn">commit</span>({
   margin-top: 16px;
   border-radius: 12px;
   overflow: hidden;
-  background: rgba(13, 17, 23, 0.8);
-  border: 1px solid rgba(255, 255, 255, 0.04);
+  background: var(--snake-bg, rgba(13, 17, 23, 0.8));
+  border: 1px solid var(--snake-border, rgba(255, 255, 255, 0.04));
   padding: 16px;
   transition: all 0.3s ease;
   animation: snakeFadeIn 0.8s ease-out forwards;
@@ -1855,6 +1935,42 @@ git.<span class="fn">commit</span>({
 .lit { color: #79c0ff; }
 .str { #a5d6ff; }
 .fn { color: #d2a8ff; }
+
+ 
+html:not(.dark) .unified-card {
+  --card-bg: rgba(255, 255, 255, 0.92);
+  --card-border: rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+html:not(.dark) .about-name { --about-name: #1f2328; }
+html:not(.dark) .about-role { --about-role: #656d76; }
+html:not(.dark) .about-sub { --about-sub: #8c959f; }
+html:not(.dark) .about-divider { --divider-color: rgba(0,0,0,0.06); }
+html:not(.dark) .section-heading { --heading-color: #1f2328; }
+html:not(.dark) .section-desc { --desc-color: #656d76; }
+html:not(.dark) .t-tag {
+  --tag-color: #656d76;
+  --tag-bg: rgba(175, 184, 193, 0.15);
+  --tag-border: rgba(0, 0, 0, 0.06);
+}
+html:not(.dark) .f-item {
+  --fitem-bg: rgba(246, 248, 250, 0.8);
+  --fitem-hover-bg: rgba(234, 238, 242, 0.95);
+}
+html:not(.dark) .f-icon { --ficon-bg: rgba(175, 184, 193, 0.12); }
+html:not(.dark) .f-info strong { --finfo-strong: #1f2328; }
+html:not(.dark) .f-info small { --finfo-small: #8c959f; }
+html:not(.dark) .code-block-wrap {
+  --code-bg: rgba(246, 248, 250, 0.8);
+  --code-border: rgba(0, 0, 0, 0.06);
+}
+html:not(.dark) .code-bar { --codebar-bg: rgba(234, 238, 242, 0.9); }
+html:not(.dark) .c-fn { --cfn-color: #8c959f; }
+html:not(.dark) .c-code { --code-color: #1f2328; }
+html:not(.dark) .snake-wrap {
+  --snake-bg: rgba(246, 248, 250, 0.8);
+  --snake-border: rgba(0, 0, 0, 0.06);
+}
 
 @media (max-width: 768px) {
   .card-inner { padding: 28px 20px 24px; }
@@ -1940,28 +2056,215 @@ git.<span class="fn">commit</span>({
       </nav>
     
   
-  <div class="flex items-center justify-between">
-    
-      <p class="text-sm text-neutral-500 dark:text-neutral-400">
-          &copy;
-          2026
-          Forminio
-      </p>
-    
 
-    
-      <p class="text-xs text-neutral-500 dark:text-neutral-400">
-        <a
-          class="inline-flex items-center gap-1.5 hover:underline hover:decoration-primary-400 hover:text-primary-500 transition-colors"
-          href="https://github.com/Forminio"
-          target="_blank"
-          rel="noopener noreferrer">
-          <span>🔥 Built with obsession</span>
-          <svg viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+  <div class="footer-cyber">
+    <div class="footer-line"></div>
+    <div class="footer-inner">
+      <div class="footer-left">
+        <span class="footer-brand">Forminio</span>
+        <span class="footer-sep">/</span>
+        <span class="footer-slogan">Build. Break. Repeat.</span>
+      </div>
+      <div class="footer-right">
+        <a href="https://github.com/Forminio" target="_blank" rel="noopener noreferrer" class="footer-link" title="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
         </a>
-      </p>
-    
+        <a href="mailto:forminio@example.com" class="footer-link" title="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </a>
+        <a href="/about/" class="footer-link" title="About">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-copy">&copy; 2026 Forminio</span>
+      <span class="footer-dot">·</span>
+      <span class="footer-status">
+        <span class="status-dot"></span>
+        System Online
+      </span>
+    </div>
   </div>
+
+  <style>
+  .footer-cyber {
+    position: relative;
+    padding-top: 24px;
+  }
+  .footer-line {
+    height: 2px;
+    background: linear-gradient(90deg,
+      transparent 0%,
+      var(--footer-line-start, rgba(88,166,255,0)) 10%,
+      var(--footer-line-mid, rgba(88,166,255,0.6)) 50%,
+      var(--footer-line-end, rgba(88,166,255,0)) 90%,
+      transparent 100%
+    );
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  .footer-line::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, var(--footer-line-glow, rgba(88,166,255,0.8)), transparent);
+    animation: lineScan 3s ease-in-out infinite;
+  }
+  @keyframes lineScan {
+    0% { left: -50%; }
+    100% { left: 150%; }
+  }
+  .footer-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .footer-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  }
+  .footer-brand {
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--footer-brand, #e6edf3);
+    letter-spacing: 1px;
+    text-shadow: var(--footer-brand-glow, 0 0 20px rgba(88,166,255,0.15));
+  }
+  .footer-sep {
+    color: var(--footer-sep, #484f58);
+    font-size: 14px;
+  }
+  .footer-slogan {
+    font-size: 14px;
+    color: var(--footer-slogan, #58a6ff);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-shadow: var(--footer-slogan-glow, 0 0 12px rgba(88,166,255,0.3));
+  }
+  .footer-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    background: var(--footer-link-bg, rgba(110,118,129,0.1));
+    border: 1px solid var(--footer-link-border, rgba(255,255,255,0.08));
+    color: var(--footer-link-color, #8b949e);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  .footer-link::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at center, var(--footer-link-glow, rgba(88,166,255,0.2)) 0%, transparent 70%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .footer-link svg {
+    width: 17px;
+    height: 17px;
+    position: relative;
+    z-index: 1;
+  }
+  .footer-link:hover {
+    color: var(--footer-link-hover, #58a6ff);
+    border-color: var(--footer-link-hover-border, rgba(88,166,255,0.4));
+    background: var(--footer-link-hover-bg, rgba(88,166,255,0.1));
+    transform: translateY(-3px);
+    box-shadow: var(--footer-link-hover-shadow, 0 4px 16px rgba(88,166,255,0.15));
+  }
+  .footer-link:hover::before {
+    opacity: 1;
+  }
+  .footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 18px;
+    font-size: 14px;
+    color: var(--footer-bottom-color, #8b949e);
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  }
+  .footer-dot {
+    color: var(--footer-dot, #484f58);
+  }
+  .footer-status {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .status-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--status-dot-bg, #58a6ff);
+    box-shadow: var(--status-dot-shadow, 0 0 8px #58a6ff, 0 0 16px rgba(88,166,255,0.4));
+    animation: statusPulse 2s ease-in-out infinite;
+  }
+  @keyframes statusPulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.5; transform: scale(0.85); }
+  }
+
+   
+  html:not(.dark) .footer-line {
+    --footer-line-start: rgba(234,88,12,0);
+    --footer-line-mid: rgba(234,88,12,0.5);
+    --footer-line-end: rgba(234,88,12,0);
+    --footer-line-glow: rgba(234,88,12,0.6);
+  }
+  html:not(.dark) .footer-brand {
+    --footer-brand: #1f2328;
+    --footer-brand-glow: 0 0 20px rgba(234,88,12,0.1);
+  }
+  html:not(.dark) .footer-sep { --footer-sep: #d0d7de; }
+  html:not(.dark) .footer-slogan {
+    --footer-slogan: #ea580c;
+    --footer-slogan-glow: 0 0 12px rgba(234,88,12,0.25);
+  }
+  html:not(.dark) .footer-link {
+    --footer-link-bg: rgba(175, 184, 193, 0.12);
+    --footer-link-border: rgba(0, 0, 0, 0.06);
+    --footer-link-color: #656d76;
+    --footer-link-glow: rgba(234,88,12,0.15);
+  }
+  html:not(.dark) .footer-link:hover {
+    --footer-link-hover: #ea580c;
+    --footer-link-hover-border: rgba(234,88,12,0.4);
+    --footer-link-hover-bg: rgba(234,88,12,0.08);
+    --footer-link-hover-shadow: 0 4px 16px rgba(234,88,12,0.15);
+  }
+  html:not(.dark) .footer-bottom { --footer-bottom-color: #656d76; }
+  html:not(.dark) .footer-dot { --footer-dot: #d0d7de; }
+  html:not(.dark) .status-dot {
+    --status-dot-bg: #ea580c;
+    --status-dot-shadow: 0 0 8px #ea580c, 0 0 16px rgba(234,88,12,0.35);
+  }
+
+  @media (max-width: 640px) {
+    .footer-inner { flex-direction: column; align-items: flex-start; }
+    .footer-bottom { margin-top: 12px; }
+  }
+  </style>
+
   
     <script>
       mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
@@ -2011,5 +2314,86 @@ git.<span class="fn">commit</span>({
 
     </div>
   </body>
+  <style>
+    :root {
+      --nav-bg-dark: rgba(29,29,31,0.72);
+      --nav-bg-light: rgba(250,250,251,0.72);
+      --nav-blur: 20px;
+      --nav-font-dark: #58a6ff;
+      --nav-font-light: #ea580c;
+      --card-bg-dark: rgba(29,29,31,0.6);
+      --card-bg-light: rgba(250,250,251,0.6);
+    }
+    .glow-card {
+      position: relative;
+      transition: all 0.3s ease;
+    }
+    .glow-card-spotlight {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      opacity: 0;
+      border-radius: inherit;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+      background: radial-gradient(circle 180px at var(--spot-x, 50%) var(--spot-y, 50%),
+        rgba(88,166,255,0.15) 0%,
+        rgba(88,166,255,0.05) 40%,
+        transparent 70%);
+    }
+    .glow-card:hover .glow-card-spotlight {
+      opacity: 1;
+    }
+    .glow-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 40px rgba(0,0,0,0.12), 0 0 0 1px rgba(88,166,255,0.2);
+    }
+    html:not(.dark) .glow-card-spotlight {
+      background: radial-gradient(circle 180px at var(--spot-x, 50%) var(--spot-y, 50%),
+        rgba(37,99,235,0.12) 0%,
+        rgba(37,99,235,0.04) 40%,
+        transparent 70%);
+    }
+    html:not(.dark) .glow-card:hover {
+      box-shadow: 0 12px 40px rgba(0,0,0,0.08), 0 0 0 1px rgba(37,99,235,0.15);
+    }
+  </style>
+  <script>
+    (function() {
+      function isLightMode() {
+        return document.documentElement.classList.contains('light') ||
+               (!document.documentElement.classList.contains('dark') && localStorage.getItem('appearance') === 'light');
+      }
+      function applyTheme() {
+        var isLight = isLightMode();
+        var nav = document.getElementById('nav-blur');
+        var menuItems = document.querySelectorAll('.main-menu a, .main-menu .bf-icon-color-hover, .main-menu span, .main-menu button');
+        if (nav) nav.style.background = isLight ? 'var(--nav-bg-light)' : 'var(--nav-bg-dark)';
+        menuItems.forEach(function(el) { el.style.color = isLight ? 'var(--nav-font-light)' : 'var(--nav-font-dark)'; });
+      }
+      applyTheme();
+      new MutationObserver(applyTheme).observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+    })();
+  </script>
+  <script>
+    (function() {
+      var cards = document.querySelectorAll('.glow-card');
+      cards.forEach(function(card) {
+        var spot = card.querySelector('.glow-card-spotlight');
+        if (!spot) return;
+        card.addEventListener('mousemove', function(e) {
+          var rect = card.getBoundingClientRect();
+          var x = ((e.clientX - rect.left) / rect.width) * 100;
+          var y = ((e.clientY - rect.top) / rect.height) * 100;
+          card.style.setProperty('--spot-x', x + '%');
+          card.style.setProperty('--spot-y', y + '%');
+        });
+        card.addEventListener('mouseleave', function() {
+          card.style.removeProperty('--spot-x');
+          card.style.removeProperty('--spot-y');
+        });
+      });
+    })();
+  </script>
   
 </html>

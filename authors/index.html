@@ -354,9 +354,7 @@
     
       <div class="min-h-[148px]"></div>
 <div class="fixed inset-x-0 z-100">
-  <div
-    id="menu-blur"
-    class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl bg-neutral/25 dark:bg-neutral-800/25"></div>
+  <div id="nav-blur" class="absolute inset-x-0 top-0 h-full shadow-sm" style="backdrop-filter: blur(var(--nav-blur)); -webkit-backdrop-filter: blur(var(--nav-blur)); background: var(--nav-bg-dark)"></div>
   <div class="relative m-auto leading-7 max-w-7xl px-6 sm:px-14 md:px-24 lg:px-32">
     <div class="main-menu flex items-center w-full gap-2 p-1 pl-0">
   
@@ -388,15 +386,15 @@
       
   
     <a
-      href="/docs/"
+      href="/posts/"
       
       class="flex items-center bf-icon-color-hover"
-      aria-label="文档"
-      title="欢迎来到 Blowfish! :tada:">
+      aria-label="文章"
+      title="文章">
       
       
         <span class="text-base font-medium break-normal">
-          文档
+          文章
         </span>
       
     </a>
@@ -415,6 +413,24 @@
       
         <span class="text-base font-medium break-normal">
           关于
+        </span>
+      
+    </a>
+  
+
+    
+      
+  
+    <a
+      href="/docs/"
+      
+      class="flex items-center bf-icon-color-hover"
+      aria-label="文档"
+      title="欢迎来到 Blowfish! :tada:">
+      
+      
+        <span class="text-base font-medium break-normal">
+          文档
         </span>
       
     </a>
@@ -573,13 +589,13 @@
     
     <div class="px-2">
       <a
-        href="/docs/"
-        aria-label="文档"
+        href="/posts/"
+        aria-label="文章"
         
         class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
         
-        <span title="欢迎来到 Blowfish! :tada:" class="text-2xl font-bold tracking-tight">
-          文档
+        <span title="文章" class="text-2xl font-bold tracking-tight">
+          文章
         </span>
         
       </a>
@@ -597,6 +613,23 @@
         
         <span title="关于" class="text-2xl font-bold tracking-tight">
           关于
+        </span>
+        
+      </a>
+
+      
+    </div>
+  
+    
+    <div class="px-2">
+      <a
+        href="/docs/"
+        aria-label="文档"
+        
+        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+        
+        <span title="欢迎来到 Blowfish! :tada:" class="text-2xl font-bold tracking-tight">
+          文档
         </span>
         
       </a>
@@ -707,14 +740,11 @@
 
   </div>
 </div>
-
-
-<script
-  type="text/javascript"
-  src="/js/background-blur.min.605b3b942818f0ab5a717ae446135ec46b8ee5a2ad12ae56fb90dc2a76ce30c388f9fec8bcc18db15bd47e3fa8a09d779fa12aa9c184cf614a315bc72c6c163d.js"
-  integrity="sha512-YFs7lCgY8KtacXrkRhNexGuO5aKtEq5W&#43;5DcKnbOMMOI&#43;f7IvMGNsVvUfj&#43;ooJ13n6EqqcGEz2FKMVvHLGwWPQ=="
-  data-blur-id="menu-blur"></script>
-
+<style>
+  .main-menu a, .main-menu .bf-icon-color-hover, .main-menu span, .main-menu button {
+    color: var(--nav-font-dark) !important;
+  }
+</style>
     
     <div class="relative flex flex-col grow">
       <main id="main-content" class="grow">
@@ -891,28 +921,215 @@
       </nav>
     
   
-  <div class="flex items-center justify-between">
-    
-      <p class="text-sm text-neutral-500 dark:text-neutral-400">
-          &copy;
-          2026
-          Forminio
-      </p>
-    
 
-    
-      <p class="text-xs text-neutral-500 dark:text-neutral-400">
-        <a
-          class="inline-flex items-center gap-1.5 hover:underline hover:decoration-primary-400 hover:text-primary-500 transition-colors"
-          href="https://github.com/Forminio"
-          target="_blank"
-          rel="noopener noreferrer">
-          <span>🔥 Built with obsession</span>
-          <svg viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+  <div class="footer-cyber">
+    <div class="footer-line"></div>
+    <div class="footer-inner">
+      <div class="footer-left">
+        <span class="footer-brand">Forminio</span>
+        <span class="footer-sep">/</span>
+        <span class="footer-slogan">Build. Break. Repeat.</span>
+      </div>
+      <div class="footer-right">
+        <a href="https://github.com/Forminio" target="_blank" rel="noopener noreferrer" class="footer-link" title="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
         </a>
-      </p>
-    
+        <a href="mailto:forminio@example.com" class="footer-link" title="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </a>
+        <a href="/about/" class="footer-link" title="About">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-copy">&copy; 2026 Forminio</span>
+      <span class="footer-dot">·</span>
+      <span class="footer-status">
+        <span class="status-dot"></span>
+        System Online
+      </span>
+    </div>
   </div>
+
+  <style>
+  .footer-cyber {
+    position: relative;
+    padding-top: 24px;
+  }
+  .footer-line {
+    height: 2px;
+    background: linear-gradient(90deg,
+      transparent 0%,
+      var(--footer-line-start, rgba(88,166,255,0)) 10%,
+      var(--footer-line-mid, rgba(88,166,255,0.6)) 50%,
+      var(--footer-line-end, rgba(88,166,255,0)) 90%,
+      transparent 100%
+    );
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  .footer-line::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, var(--footer-line-glow, rgba(88,166,255,0.8)), transparent);
+    animation: lineScan 3s ease-in-out infinite;
+  }
+  @keyframes lineScan {
+    0% { left: -50%; }
+    100% { left: 150%; }
+  }
+  .footer-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .footer-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  }
+  .footer-brand {
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--footer-brand, #e6edf3);
+    letter-spacing: 1px;
+    text-shadow: var(--footer-brand-glow, 0 0 20px rgba(88,166,255,0.15));
+  }
+  .footer-sep {
+    color: var(--footer-sep, #484f58);
+    font-size: 14px;
+  }
+  .footer-slogan {
+    font-size: 14px;
+    color: var(--footer-slogan, #58a6ff);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-shadow: var(--footer-slogan-glow, 0 0 12px rgba(88,166,255,0.3));
+  }
+  .footer-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    background: var(--footer-link-bg, rgba(110,118,129,0.1));
+    border: 1px solid var(--footer-link-border, rgba(255,255,255,0.08));
+    color: var(--footer-link-color, #8b949e);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  .footer-link::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at center, var(--footer-link-glow, rgba(88,166,255,0.2)) 0%, transparent 70%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .footer-link svg {
+    width: 17px;
+    height: 17px;
+    position: relative;
+    z-index: 1;
+  }
+  .footer-link:hover {
+    color: var(--footer-link-hover, #58a6ff);
+    border-color: var(--footer-link-hover-border, rgba(88,166,255,0.4));
+    background: var(--footer-link-hover-bg, rgba(88,166,255,0.1));
+    transform: translateY(-3px);
+    box-shadow: var(--footer-link-hover-shadow, 0 4px 16px rgba(88,166,255,0.15));
+  }
+  .footer-link:hover::before {
+    opacity: 1;
+  }
+  .footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 18px;
+    font-size: 14px;
+    color: var(--footer-bottom-color, #8b949e);
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  }
+  .footer-dot {
+    color: var(--footer-dot, #484f58);
+  }
+  .footer-status {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .status-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--status-dot-bg, #58a6ff);
+    box-shadow: var(--status-dot-shadow, 0 0 8px #58a6ff, 0 0 16px rgba(88,166,255,0.4));
+    animation: statusPulse 2s ease-in-out infinite;
+  }
+  @keyframes statusPulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.5; transform: scale(0.85); }
+  }
+
+   
+  html:not(.dark) .footer-line {
+    --footer-line-start: rgba(234,88,12,0);
+    --footer-line-mid: rgba(234,88,12,0.5);
+    --footer-line-end: rgba(234,88,12,0);
+    --footer-line-glow: rgba(234,88,12,0.6);
+  }
+  html:not(.dark) .footer-brand {
+    --footer-brand: #1f2328;
+    --footer-brand-glow: 0 0 20px rgba(234,88,12,0.1);
+  }
+  html:not(.dark) .footer-sep { --footer-sep: #d0d7de; }
+  html:not(.dark) .footer-slogan {
+    --footer-slogan: #ea580c;
+    --footer-slogan-glow: 0 0 12px rgba(234,88,12,0.25);
+  }
+  html:not(.dark) .footer-link {
+    --footer-link-bg: rgba(175, 184, 193, 0.12);
+    --footer-link-border: rgba(0, 0, 0, 0.06);
+    --footer-link-color: #656d76;
+    --footer-link-glow: rgba(234,88,12,0.15);
+  }
+  html:not(.dark) .footer-link:hover {
+    --footer-link-hover: #ea580c;
+    --footer-link-hover-border: rgba(234,88,12,0.4);
+    --footer-link-hover-bg: rgba(234,88,12,0.08);
+    --footer-link-hover-shadow: 0 4px 16px rgba(234,88,12,0.15);
+  }
+  html:not(.dark) .footer-bottom { --footer-bottom-color: #656d76; }
+  html:not(.dark) .footer-dot { --footer-dot: #d0d7de; }
+  html:not(.dark) .status-dot {
+    --status-dot-bg: #ea580c;
+    --status-dot-shadow: 0 0 8px #ea580c, 0 0 16px rgba(234,88,12,0.35);
+  }
+
+  @media (max-width: 640px) {
+    .footer-inner { flex-direction: column; align-items: flex-start; }
+    .footer-bottom { margin-top: 12px; }
+  }
+  </style>
+
   
     <script>
       mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
@@ -962,5 +1179,86 @@
 
     </div>
   </body>
+  <style>
+    :root {
+      --nav-bg-dark: rgba(29,29,31,0.72);
+      --nav-bg-light: rgba(250,250,251,0.72);
+      --nav-blur: 20px;
+      --nav-font-dark: #58a6ff;
+      --nav-font-light: #ea580c;
+      --card-bg-dark: rgba(29,29,31,0.6);
+      --card-bg-light: rgba(250,250,251,0.6);
+    }
+    .glow-card {
+      position: relative;
+      transition: all 0.3s ease;
+    }
+    .glow-card-spotlight {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      opacity: 0;
+      border-radius: inherit;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+      background: radial-gradient(circle 180px at var(--spot-x, 50%) var(--spot-y, 50%),
+        rgba(88,166,255,0.15) 0%,
+        rgba(88,166,255,0.05) 40%,
+        transparent 70%);
+    }
+    .glow-card:hover .glow-card-spotlight {
+      opacity: 1;
+    }
+    .glow-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 40px rgba(0,0,0,0.12), 0 0 0 1px rgba(88,166,255,0.2);
+    }
+    html:not(.dark) .glow-card-spotlight {
+      background: radial-gradient(circle 180px at var(--spot-x, 50%) var(--spot-y, 50%),
+        rgba(37,99,235,0.12) 0%,
+        rgba(37,99,235,0.04) 40%,
+        transparent 70%);
+    }
+    html:not(.dark) .glow-card:hover {
+      box-shadow: 0 12px 40px rgba(0,0,0,0.08), 0 0 0 1px rgba(37,99,235,0.15);
+    }
+  </style>
+  <script>
+    (function() {
+      function isLightMode() {
+        return document.documentElement.classList.contains('light') ||
+               (!document.documentElement.classList.contains('dark') && localStorage.getItem('appearance') === 'light');
+      }
+      function applyTheme() {
+        var isLight = isLightMode();
+        var nav = document.getElementById('nav-blur');
+        var menuItems = document.querySelectorAll('.main-menu a, .main-menu .bf-icon-color-hover, .main-menu span, .main-menu button');
+        if (nav) nav.style.background = isLight ? 'var(--nav-bg-light)' : 'var(--nav-bg-dark)';
+        menuItems.forEach(function(el) { el.style.color = isLight ? 'var(--nav-font-light)' : 'var(--nav-font-dark)'; });
+      }
+      applyTheme();
+      new MutationObserver(applyTheme).observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+    })();
+  </script>
+  <script>
+    (function() {
+      var cards = document.querySelectorAll('.glow-card');
+      cards.forEach(function(card) {
+        var spot = card.querySelector('.glow-card-spotlight');
+        if (!spot) return;
+        card.addEventListener('mousemove', function(e) {
+          var rect = card.getBoundingClientRect();
+          var x = ((e.clientX - rect.left) / rect.width) * 100;
+          var y = ((e.clientY - rect.top) / rect.height) * 100;
+          card.style.setProperty('--spot-x', x + '%');
+          card.style.setProperty('--spot-y', y + '%');
+        });
+        card.addEventListener('mouseleave', function() {
+          card.style.removeProperty('--spot-x');
+          card.style.removeProperty('--spot-y');
+        });
+      });
+    })();
+  </script>
   
 </html>
