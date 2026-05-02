@@ -1050,9 +1050,15 @@
     background: var(--footer-link-bg, rgba(110,118,129,0.1));
     border: 1px solid var(--footer-link-border, rgba(255,255,255,0.08));
     color: var(--footer-link-color, #8b949e);
-    transition: all 0.3s ease;
+    transition: transform 0.25s cubic-bezier(0.22,1,0.36,1),
+                color 0.25s ease,
+                border-color 0.25s ease,
+                background-color 0.25s ease,
+                box-shadow 0.25s cubic-bezier(0.22,1,0.36,1);
     position: relative;
     overflow: hidden;
+    transform: translateZ(0);
+    will-change: transform, box-shadow;
   }
   .footer-link::before {
     content: '';
@@ -1102,7 +1108,8 @@
     border-radius: 50%;
     background: var(--status-dot-bg, #58a6ff);
     box-shadow: var(--status-dot-shadow, 0 0 8px #58a6ff, 0 0 16px rgba(88,166,255,0.4));
-    animation: statusPulse 2s ease-in-out infinite;
+    animation: statusPulse 2.5s ease-in-out infinite;
+    will-change: opacity, transform;
   }
   @keyframes statusPulse {
     0%, 100% { opacity: 1; transform: scale(1); }
@@ -1148,7 +1155,24 @@
     .footer-inner { flex-direction: column; align-items: flex-start; }
     .footer-bottom { margin-top: 12px; }
   }
+  .footer-cyber:not(.visible) .footer-line::after,
+  .footer-cyber:not(.visible) .status-dot {
+    animation-play-state: paused;
+  }
   </style>
+  <script>
+    (function(){
+      var footer=document.getElementById('site-footer');
+      if(!footer)return;
+      var io=new IntersectionObserver(function(entries){
+        entries.forEach(function(e){
+          var cyber=footer.querySelector('.footer-cyber');
+          if(cyber)cyber.classList.toggle('visible',e.isIntersecting);
+        });
+      },{threshold:0});
+      io.observe(footer);
+    })();
+  </script>
 
   
     <script>
@@ -1211,7 +1235,10 @@
     }
     .glow-card {
       position: relative;
-      transition: all 0.3s ease;
+      transform: translateZ(0);
+      will-change: transform;
+      transition: transform 0.3s cubic-bezier(0.22,1,0.36,1),
+                  box-shadow 0.3s cubic-bezier(0.22,1,0.36,1);
     }
     .glow-card-spotlight {
       position: absolute;
@@ -1220,7 +1247,7 @@
       opacity: 0;
       border-radius: inherit;
       pointer-events: none;
-      transition: opacity 0.3s ease;
+      transition: opacity 0.2s ease-out;
       background: radial-gradient(circle 180px at var(--spot-x, 50%) var(--spot-y, 50%),
         rgba(88,166,255,0.15) 0%,
         rgba(88,166,255,0.05) 40%,
@@ -1230,8 +1257,8 @@
       opacity: 1;
     }
     .glow-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 12px 40px rgba(0,0,0,0.12), 0 0 0 1px rgba(88,166,255,0.2);
+      transform: translateY(-4px) translateZ(0);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.10), 0 0 0 1px rgba(88,166,255,0.18);
     }
     html:not(.dark) .glow-card-spotlight {
       background: radial-gradient(circle 180px at var(--spot-x, 50%) var(--spot-y, 50%),
@@ -1240,7 +1267,7 @@
         transparent 70%);
     }
     html:not(.dark) .glow-card:hover {
-      box-shadow: 0 12px 40px rgba(0,0,0,0.08), 0 0 0 1px rgba(37,99,235,0.15);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.07), 0 0 0 1px rgba(37,99,235,0.14);
     }
   </style>
   <script>
@@ -1252,28 +1279,40 @@
       function applyTheme() {
         var isLight = isLightMode();
         var nav = document.getElementById('nav-blur');
-        var menuItems = document.querySelectorAll('.main-menu a, .main-menu .bf-icon-color-hover, .main-menu span, .main-menu button');
-        if (nav) nav.style.background = isLight ? 'var(--nav-bg-light)' : 'var(--nav-bg-dark)';
-        menuItems.forEach(function(el) { el.style.color = isLight ? 'var(--nav-font-light)' : 'var(--nav-font-dark)'; });
+        if (!nav) return;
+        nav.style.background = isLight ? 'var(--nav-bg-light)' : 'var(--nav-bg-dark)';
+        var root = document.documentElement;
+        root.classList.toggle('theme-light', isLight);
+        root.classList.toggle('theme-dark', !isLight);
+        var color = isLight ? 'var(--nav-font-light)' : 'var(--nav-font-dark)';
+        var style = document.getElementById('nav-theme-style');
+        if (!style) {
+          style = document.createElement('style');
+          style.id = 'nav-theme-style';
+          document.head.appendChild(style);
+        }
+        style.textContent = '.main-menu a,.main-menu .bf-icon-color-hover,.main-menu span,.main-menu button{color:' + color + '!important}';
       }
       applyTheme();
-      new MutationObserver(applyTheme).observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+      new MutationObserver(function(){ applyTheme(); }).observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
     })();
   </script>
   <script>
-    (function() {
-      var cards = document.querySelectorAll('.glow-card');
-      cards.forEach(function(card) {
-        var spot = card.querySelector('.glow-card-spotlight');
-        if (!spot) return;
-        card.addEventListener('mousemove', function(e) {
-          var rect = card.getBoundingClientRect();
-          var x = ((e.clientX - rect.left) / rect.width) * 100;
-          var y = ((e.clientY - rect.top) / rect.height) * 100;
-          card.style.setProperty('--spot-x', x + '%');
-          card.style.setProperty('--spot-y', y + '%');
-        });
-        card.addEventListener('mouseleave', function() {
+    (function(){
+      var cards=document.querySelectorAll('.glow-card'),rafId=0;
+      cards.forEach(function(card){
+        var spot=card.querySelector('.glow-card-spotlight');if(!spot)return;
+        card.addEventListener('mousemove',function(e){
+          if(rafId)cancelAnimationFrame(rafId);
+          rafId=requestAnimationFrame(function(){
+            var r=card.getBoundingClientRect();
+            card.style.setProperty('--spot-x',((e.clientX-r.left)/r.width*100)+'%');
+            card.style.setProperty('--spot-y',((e.clientY-r.top)/r.height*100)+'%');
+            rafId=0;
+          });
+        },{passive:true});
+        card.addEventListener('mouseleave',function(){
+          if(rafId){cancelAnimationFrame(rafId);rafId=0;}
           card.style.removeProperty('--spot-x');
           card.style.removeProperty('--spot-y');
         });
