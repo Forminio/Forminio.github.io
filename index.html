@@ -834,8 +834,8 @@
     </div>
   </div>
 </article>
-<section id="articles-section" class="mx-4 sm:mx-8 lg:mx-16" style="opacity: 0; transform: translateY(60px); transition: opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1), transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);">
-  <div id="articles-container" class="backdrop-blur-xl rounded-2xl shadow-lg p-6 sm:p-10" style="background: var(--card-bg-dark)">
+<section id="articles-section" class="mx-auto w-full max-w-7xl px-4 sm:px-8 lg:px-16 flex items-center justify-center" style="min-height: 100vh; opacity: 0; transform: translateY(60px); transition: opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1), transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);">
+  <div id="articles-container" class="backdrop-blur-xl rounded-2xl shadow-lg p-6 sm:p-10 w-full" style="background: var(--card-bg-dark)">
     
 
 
@@ -849,9 +849,10 @@
 
 
 
-<section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
-  
+<section class="w-full flex justify-center">
+  <div class="grid gap-4 sm:grid-cols-2 md:grid-cols-3 max-w-5xl">
     
+      
 
 
 
@@ -1165,8 +1166,8 @@
   <div class="px-6 pt-4 pb-2"></div>
 </article>
 
-  
     
+      
 
 
 
@@ -1480,7 +1481,8 @@
   <div class="px-6 pt-4 pb-2"></div>
 </article>
 
-  
+    
+  </div>
 </section>
 
   
@@ -1575,6 +1577,8 @@
         articlesRevealed = true;
         articlesSection.style.opacity = '1';
         articlesSection.style.transform = 'translateY(0)';
+        var targetTop = articlesSection.getBoundingClientRect().top + window.scrollY - (window.innerHeight * 0.10);
+        window.scrollTo({ top: targetTop, behavior: 'smooth' });
         if (scrollIndicator) {
           scrollIndicator.style.opacity = '0';
           scrollIndicator.style.transform = 'translateY(20px) scale(0.9)';
