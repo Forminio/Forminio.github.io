@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>欢迎来到 Blowfish! :tada: on 这是来自forminio的博客</title>
-    <link>https://localhost:1313/docs/</link>
+    <link>https://forminio.github.io/docs/</link>
     <description>Recent content in 欢迎来到 Blowfish! :tada: on 这是来自forminio的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2026 Forminio</copyright>
-    <atom:link href="https://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://forminio.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
