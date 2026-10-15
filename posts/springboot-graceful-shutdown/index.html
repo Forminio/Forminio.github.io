@@ -50,24 +50,24 @@
 
   
   <meta property="og:url" content="https://forminio.github.io/posts/springboot-graceful-shutdown/">
-  <meta property="og:site_name" content="这是来自forminio的博客">
-  <meta property="og:title" content="Spring Boot 优雅停机实战：零停机部署的秘密">
-  <meta property="og:description" content="深入探讨 Spring Boot 应用的优雅停机机制，实现真正的零停机更新">
-  <meta property="og:locale" content="zh_cn">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2026-04-30T14:00:00+08:00">
-    <meta property="article:modified_time" content="2026-04-30T14:00:00+08:00">
-    <meta property="article:tag" content="SpringBoot">
-    <meta property="article:tag" content="Java">
-    <meta property="article:tag" content="DevOps">
-    <meta property="article:tag" content="微服务">
-      <meta property="og:see_also" content="https://forminio.github.io/posts/redis-cluster-setup/">
+	<meta property="og:site_name" content="这是来自forminio的博客">
+	<meta property="og:title" content="Spring Boot 优雅停机实战：零停机部署的秘密">
+	<meta property="og:description" content="深入探讨 Spring Boot 应用的优雅停机机制，实现真正的零停机更新">
+	<meta property="og:locale" content="zh_cn">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2026-04-30T14:00:00+08:00">
+		<meta property="article:modified_time" content="2026-04-30T14:00:00+08:00">
+		<meta property="article:tag" content="SpringBoot">
+		<meta property="article:tag" content="Java">
+		<meta property="article:tag" content="DevOps">
+		<meta property="article:tag" content="微服务">
+			<meta property="og:see_also" content="https://forminio.github.io/posts/redis-cluster-setup/">
 
   
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Spring Boot 优雅停机实战：零停机部署的秘密">
-  <meta name="twitter:description" content="深入探讨 Spring Boot 应用的优雅停机机制，实现真正的零停机更新">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Spring Boot 优雅停机实战：零停机部署的秘密">
+	<meta name="twitter:description" content="深入探讨 Spring Boot 应用的优雅停机机制，实现真正的零停机更新">
 
   
   
@@ -121,8 +121,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.4ecdbecdb8d813b3cd8b3d00595f141b1d694f6bf4df703ade177d63ea14022b0d9ec7acf490411756efb7bcee213a05c3bcd68059dc57767963155c42c47994.css"
-    integrity="sha512-Ts2&#43;zbjYE7PNiz0AWV8UGx1pT2v033A63hd9Y&#43;oUAisNnses9JBBF1bvt7zuIToFw7zWgFncV3Z5YxVcQsR5lA==">
+    href="/css/main.bundle.min.6a3d63c8a8721bfc380b9b27760513a8d3b8950b920ab8701bd89eb014bfc1ee8f5a91b5d8c547b188eee757ed2c12dc481218af0e4d9294efdd811503be5eda.css"
+    integrity="sha512-aj1jyKhyG/w4C5sndgUTqNO4lQuSCrhwG9iesBS/we6PWpG12MVHsYju51ftLBLcSBIYrw5NkpTv3YEVA75e2g==">
 
   
   
@@ -358,6 +358,8 @@
 
 
   
+    
+      
     
   
 
@@ -779,34 +781,18 @@
 
 
 
-
-
-  
   
     
-  
-    
-  
-    
-  
-    
-  
-
-
-
-  
-  
-    
+      
     
   
 
 
 
 
-  
-    
-    
-  
+
+
+
 
 
 
@@ -820,7 +806,7 @@
     
     <img
       id="background-image"
-      src="/img/background.svg"
+      src="https://cdn.jsdelivr.net/gh/Forminio/picx-images-hosting@master/pic/202410/%e5%a5%b3%e5%ad%a9%e4%b8%8e%e9%b1%bc.7lk7ezk5db.png"
       role="presentation"
       loading="eager"
       decoding="async"
@@ -845,7 +831,7 @@
       integrity="sha512-YFs7lCgY8KtacXrkRhNexGuO5aKtEq5W&#43;5DcKnbOMMOI&#43;f7IvMGNsVvUfj&#43;ooJ13n6EqqcGEz2FKMVvHLGwWPQ=="
       data-blur-id="background-blur"
       data-image-id="background-image"
-      data-image-url="/img/background.svg"></script>
+      data-image-url="https://cdn.jsdelivr.net/gh/Forminio/picx-images-hosting@master/pic/202410/%e5%a5%b3%e5%ad%a9%e4%b8%8e%e9%b1%bc.7lk7ezk5db.png"></script>
   
       
     
@@ -1177,7 +1163,7 @@
             class="mb-2 h-24 w-24 rounded-full"
             width="192"
             height="192"
-            src="/logo.8vn5764mzb_11283661542148031990_hu_7445769a3d424864.webp"
+            src="/logo.8vn5764mzb_11283661542148031990_hu_f42e16f5d63b1f8b.webp"
             alt="Forminio" />
         
       
@@ -1563,35 +1549,35 @@
 </h2>
 <p>我用 JMeter 模拟了 1000 并发用户持续请求，同时执行滚动更新：</p>
 <table>
-  <thead>
-      <tr>
-          <th>指标</th>
-          <th>非优雅停机</th>
-          <th>优雅停机</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>失败请求数</td>
-          <td>127</td>
-          <td>0</td>
-      </tr>
-      <tr>
-          <td>响应时间 P99</td>
-          <td>超时</td>
-          <td>120ms</td>
-      </tr>
-      <tr>
-          <td>数据一致性</td>
-          <td>出现脏数据</td>
-          <td>完全一致</td>
-      </tr>
-      <tr>
-          <td>用户体验</td>
-          <td>明显卡顿</td>
-          <td>无感知</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>指标</th>
+					<th>非优雅停机</th>
+					<th>优雅停机</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>失败请求数</td>
+					<td>127</td>
+					<td>0</td>
+			</tr>
+			<tr>
+					<td>响应时间 P99</td>
+					<td>超时</td>
+					<td>120ms</td>
+			</tr>
+			<tr>
+					<td>数据一致性</td>
+					<td>出现脏数据</td>
+					<td>完全一致</td>
+			</tr>
+			<tr>
+					<td>用户体验</td>
+					<td>明显卡顿</td>
+					<td>无感知</td>
+			</tr>
+	</tbody>
 </table>
 
 <h2 class="relative group">最佳实践清单
@@ -1711,33 +1697,20 @@
 
 
   
-
-  
-  
-    
     
       
-    
-      
-    
+        
       
     
   
 
   
   
-    
-    
-      
-    
-  
 
   
   
-    
-      
-      
-    
+
+  
   
 
 
@@ -1747,7 +1720,7 @@
   
     <div class="flex-none relative overflow-hidden thumbnail_card_related" style="--thumbnail-aspect-ratio: 1.5">
       <img
-        src="/img/featured.svg"
+        src="https://cdn.jsdelivr.net/gh/Forminio/picx-images-hosting@master/pic/202410/%e5%a4%a7%e8%99%b9%e6%a0%91.60u97w6um1.webp"
         role="presentation"
         loading="lazy"
         decoding="async"
@@ -2660,6 +2633,22 @@
     }
     html:not(.dark) .glow-card:hover {
       box-shadow: 0 12px 32px rgba(0,0,0,0.07), 0 0 0 1px rgba(96,165,250,0.18);
+    }
+
+    body {
+      max-width: 80vw;
+    }
+
+    @media (max-width: 1024px) {
+      body {
+        max-width: 90vw;
+      }
+    }
+
+    @media (max-width: 768px) {
+      body {
+        max-width: 95vw;
+      }
     }
   </style>
   <script>
