@@ -10,7 +10,7 @@
     <lastBuildDate>Tue, 28 Apr 2026 10:30:00 +0800</lastBuildDate><atom:link href="https://forminio.github.io/tags/%E7%BC%93%E5%AD%98/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Redis 集群搭建与实战：从单节点到高可用</title>
+      <title>Redis集群搭建与实战</title>
       <link>https://forminio.github.io/posts/redis-cluster-setup/</link>
       <pubDate>Tue, 28 Apr 2026 10:30:00 +0800</pubDate>
       

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>计算机网络 on 这是来自forminio的博客</title>
+    <link>https://forminio.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</link>
+    <description>Recent content in 计算机网络 on 这是来自forminio的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2026 Forminio</copyright>
+    <lastBuildDate>Tue, 20 Oct 2026 20:45:00 +0800</lastBuildDate><atom:link href="https://forminio.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>计网入门基础</title>
+      <link>https://forminio.github.io/posts/networking/</link>
+      <pubDate>Tue, 20 Oct 2026 20:45:00 +0800</pubDate>
+      
+      <guid>https://forminio.github.io/posts/networking/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;网络模型&#xA;    &lt;div id=&#34;网络模型&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e7%bd%91%e7%bb%9c%e6%a8%a1%e5%9e%8b&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;网络模型分为两类一类是OSI模型，共七层，一类是TCP/IP模型，共四层&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
