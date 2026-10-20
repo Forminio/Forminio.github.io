@@ -39,5 +39,15 @@
       
     </item>
     
+    <item>
+      <title>添加新番</title>
+      <link>https://forminio.github.io/anime/add/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://forminio.github.io/anime/add/</guid>
+      <description>&lt;p&gt;搜索 Bangumi 上的番剧，选择追番状态与时间，点「复制 YAML」后粘贴到 &lt;code&gt;data/anime.yaml&lt;/code&gt; 文件末尾，推送部署后即可在「追番」页看到。&lt;/p&gt;</description>
+      
+    </item>
+    
   </channel>
 </rss>

@@ -119,4 +119,14 @@
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
+  <url>
+    <loc>https://forminio.github.io/anime/add/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://forminio.github.io/anime/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>
