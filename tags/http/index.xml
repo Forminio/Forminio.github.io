@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HTTP on 这是来自forminio的博客</title>
+    <link>https://forminio.github.io/tags/http/</link>
+    <description>Recent content in HTTP on 这是来自forminio的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2026 Forminio</copyright>
+    <lastBuildDate>Sun, 07 Sep 2025 15:10:00 +0800</lastBuildDate><atom:link href="https://forminio.github.io/tags/http/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>从 HTTP/1.1 到 HTTP/3：一次把演进讲清楚</title>
+      <link>https://forminio.github.io/posts/http-evolution/</link>
+      <pubDate>Sun, 07 Sep 2025 15:10:00 +0800</pubDate>
+      
+      <guid>https://forminio.github.io/posts/http-evolution/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;为什么需要 HTTP/2&#xA;    &lt;div id=&#34;为什么需要-http2&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%b8%ba%e4%bb%80%e4%b9%88%e9%9c%80%e8%a6%81-http2&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;HTTP/1.1 用 &lt;code&gt;keep-alive&lt;/code&gt; 复用了 TCP 连接，但同一条连接上的请求必须串行：前一个响应没回来，后一个只能排队。这就是&lt;strong&gt;应用层队头阻塞&lt;/strong&gt;。&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
