@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2026 Forminio</copyright>
-    <lastBuildDate>Tue, 20 Oct 2026 20:45:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 00:45:00 +0800</lastBuildDate>
     <atom:link href="https://forminio.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>运维</title>
+      <link>https://forminio.github.io/tags/%E8%BF%90%E7%BB%B4/</link>
+      <pubDate>Sat, 24 Oct 2026 00:45:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E8%BF%90%E7%BB%B4/</guid>
+      <description></description>
+    </item>
     <item>
       <title>计算机网络</title>
       <link>https://forminio.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</link>
@@ -35,13 +42,6 @@
       <link>https://forminio.github.io/tags/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/</link>
       <pubDate>Fri, 21 Aug 2026 09:45:00 +0800</pubDate>
       <guid>https://forminio.github.io/tags/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>运维</title>
-      <link>https://forminio.github.io/tags/%E8%BF%90%E7%BB%B4/</link>
-      <pubDate>Fri, 21 Aug 2026 09:45:00 +0800</pubDate>
-      <guid>https://forminio.github.io/tags/%E8%BF%90%E7%BB%B4/</guid>
       <description></description>
     </item>
     <item>

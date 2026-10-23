@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2026 Forminio</copyright>
-    <lastBuildDate>Fri, 21 Aug 2026 09:45:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 00:45:00 +0800</lastBuildDate>
     <atom:link href="https://forminio.github.io/tags/%E8%BF%90%E7%BB%B4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何永久申请免费泛域名ssl证书与证书部署 | 地表最强教程</title>
+      <link>https://forminio.github.io/posts/ssl/</link>
+      <pubDate>Sat, 24 Oct 2026 00:45:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/ssl/</guid>
+      <description>&lt;p&gt;先说一下方法，这是基于GitHub开源项目acme.sh与Let&amp;rsquo;s Encrypt无需注册自动更新免费泛域名https证书。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Kafka 消息积压的排查与治理</title>
       <link>https://forminio.github.io/posts/kafka-consumer-lag/</link>
