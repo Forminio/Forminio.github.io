@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>消息队列 on 这是来自forminio的博客</title>
+    <title>消息队列 · 这是来自forminio的博客</title>
     <link>https://forminio.github.io/tags/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/</link>
-    <description>Recent content in 消息队列 on 这是来自forminio的博客</description>
+    <description>消息队列 · know is know ，no know is no know</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2026 Forminio</copyright>
-    <lastBuildDate>Fri, 21 Aug 2026 09:45:00 +0800</lastBuildDate><atom:link href="https://forminio.github.io/tags/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Fri, 21 Aug 2026 09:45:00 +0800</lastBuildDate>
+    <atom:link href="https://forminio.github.io/tags/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kafka 消息积压的排查与治理</title>
       <link>https://forminio.github.io/posts/kafka-consumer-lag/</link>
       <pubDate>Fri, 21 Aug 2026 09:45:00 +0800</pubDate>
-      
       <guid>https://forminio.github.io/posts/kafka-consumer-lag/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;先确认是不是真的积压&#xA;    &lt;div id=&#34;先确认是不是真的积压&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e5%85%88%e7%a1%ae%e8%ae%a4%e6%98%af%e4%b8%8d%e6%98%af%e7%9c%9f%e7%9a%84%e7%a7%af%e5%8e%8b&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;告警说“消息积压”，第一步不是扩容，而是确认 lag 的趋势：&lt;/p&gt;</description>
-      
     </item>
-    
   </channel>
 </rss>

@@ -1,113 +1,83 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>文章 on 这是来自forminio的博客</title>
+    <title>文章 · 这是来自forminio的博客</title>
     <link>https://forminio.github.io/posts/</link>
-    <description>Recent content in 文章 on 这是来自forminio的博客</description>
+    <description>文章 · know is know ，no know is no know</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2026 Forminio</copyright>
-    <lastBuildDate>Tue, 20 Oct 2026 20:45:00 +0800</lastBuildDate><atom:link href="https://forminio.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Tue, 20 Oct 2026 20:45:00 +0800</lastBuildDate>
+    <atom:link href="https://forminio.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>计网入门基础</title>
       <link>https://forminio.github.io/posts/networking/</link>
       <pubDate>Tue, 20 Oct 2026 20:45:00 +0800</pubDate>
-      
       <guid>https://forminio.github.io/posts/networking/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;网络模型&#xA;    &lt;div id=&#34;网络模型&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e7%bd%91%e7%bb%9c%e6%a8%a1%e5%9e%8b&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;网络模型分为两类一类是OSI模型，共七层，一类是TCP/IP模型，共四层&lt;/p&gt;</description>
-      
     </item>
-    
     <item>
       <title>Kafka 消息积压的排查与治理</title>
       <link>https://forminio.github.io/posts/kafka-consumer-lag/</link>
       <pubDate>Fri, 21 Aug 2026 09:45:00 +0800</pubDate>
-      
       <guid>https://forminio.github.io/posts/kafka-consumer-lag/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;先确认是不是真的积压&#xA;    &lt;div id=&#34;先确认是不是真的积压&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e5%85%88%e7%a1%ae%e8%ae%a4%e6%98%af%e4%b8%8d%e6%98%af%e7%9c%9f%e7%9a%84%e7%a7%af%e5%8e%8b&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;告警说“消息积压”，第一步不是扩容，而是确认 lag 的趋势：&lt;/p&gt;</description>
-      
     </item>
-    
     <item>
       <title>Spring Boot 3 &#43; GraalVM Native Image 实践</title>
       <link>https://forminio.github.io/posts/springboot-graalvm-native/</link>
       <pubDate>Wed, 17 Jun 2026 14:20:00 +0800</pubDate>
-      
       <guid>https://forminio.github.io/posts/springboot-graalvm-native/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;为什么要 Native Image&#xA;    &lt;div id=&#34;为什么要-native-image&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%b8%ba%e4%bb%80%e4%b9%88%e8%a6%81-native-image&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;传统 JVM 应用启动要经历类加载、字节码验证、解释执行、JIT 预热。一个中等规模的 Spring Boot 服务，冷启动 2 到 5 秒很常见，内存占用动辄几百 MB。&lt;/p&gt;</description>
-      
     </item>
-    
     <item>
       <title>Spring Boot零停机部署</title>
       <link>https://forminio.github.io/posts/springboot-shutdown/</link>
       <pubDate>Thu, 30 Apr 2026 14:00:00 +0800</pubDate>
-      
       <guid>https://forminio.github.io/posts/springboot-shutdown/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;为什么需要零停机部署？&#xA;    &lt;div id=&#34;为什么需要零停机部署&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%b8%ba%e4%bb%80%e4%b9%88%e9%9c%80%e8%a6%81%e9%9b%b6%e5%81%9c%e6%9c%ba%e9%83%a8%e7%bd%b2&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;想象一下这个场景：你的应用正在处理一笔关键的支付请求，请求已经扣款成功，正准备返回结果给前端。此时运维同学执行了 &lt;code&gt;kill -9&lt;/code&gt; 强制杀死进程——结果这笔订单状态永远停留在&amp;quot;处理中&amp;quot;，用户钱扣了但订单未完成。&lt;/p&gt;</description>
-      
     </item>
-    
     <item>
       <title>Redis集群搭建与实战</title>
       <link>https://forminio.github.io/posts/redis-cluster-setup/</link>
       <pubDate>Tue, 28 Apr 2026 10:30:00 +0800</pubDate>
-      
       <guid>https://forminio.github.io/posts/redis-cluster-setup/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;前言&#xA;    &lt;div id=&#34;前言&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e5%89%8d%e8%a8%80&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;在高并发场景下，单节点 Redis 往往无法满足业务需求。无论是容量限制还是性能瓶颈，都促使我们必须将 Redis 扩展到多节点架构。本文将手把手带你搭建一个生产级的 Redis Cluster 集群。&lt;/p&gt;</description>
-      
     </item>
-    
     <item>
       <title>分布式锁的四种实现与踩坑记录</title>
       <link>https://forminio.github.io/posts/distributed-lock-practices/</link>
       <pubDate>Wed, 21 Jan 2026 10:00:00 +0800</pubDate>
-      
       <guid>https://forminio.github.io/posts/distributed-lock-practices/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;为什么单机锁不够&#xA;    &lt;div id=&#34;为什么单机锁不够&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%b8%ba%e4%bb%80%e4%b9%88%e5%8d%95%e6%9c%ba%e9%94%81%e4%b8%8d%e5%a4%9f&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;synchronized&lt;/code&gt; 和 &lt;code&gt;ReentrantLock&lt;/code&gt; 只能保证同一个 JVM 内的互斥。服务一旦多实例部署，两个线程可能在不同进程里同时拿到“锁”，库存照样超卖。&lt;/p&gt;</description>
-      
     </item>
-    
     <item>
       <title>JVM 垃圾回收器选型：Serial、G1、ZGC 怎么选</title>
       <link>https://forminio.github.io/posts/jvm-gc-selection/</link>
       <pubDate>Sat, 06 Dec 2025 20:30:00 +0800</pubDate>
-      
       <guid>https://forminio.github.io/posts/jvm-gc-selection/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;先明确两个指标&#xA;    &lt;div id=&#34;先明确两个指标&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e5%85%88%e6%98%8e%e7%a1%ae%e4%b8%a4%e4%b8%aa%e6%8c%87%e6%a0%87&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;选 GC 之前，先回答两个问题：&lt;/p&gt;</description>
-      
     </item>
-    
     <item>
       <title>Docker 镜像瘦身：从 1.2GB 到 180MB</title>
       <link>https://forminio.github.io/posts/docker-image-slim/</link>
       <pubDate>Wed, 22 Oct 2025 11:05:00 +0800</pubDate>
-      
       <guid>https://forminio.github.io/posts/docker-image-slim/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;镜像为什么越做越大&#xA;    &lt;div id=&#34;镜像为什么越做越大&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e9%95%9c%e5%83%8f%e4%b8%ba%e4%bb%80%e4%b9%88%e8%b6%8a%e5%81%9a%e8%b6%8a%e5%a4%a7&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;一个常见的 Spring Boot 项目，&lt;code&gt;docker images&lt;/code&gt; 里躺着 1.2GB 的镜像：Maven、JDK、源码、&lt;code&gt;.git&lt;/code&gt;、测试报告、本地仓库全都打了进去。镜像大不只是占硬盘，它还会拉慢发布、扩大攻击面、增加每台节点的存储压力。&lt;/p&gt;</description>
-      
     </item>
-    
     <item>
       <title>从 HTTP/1.1 到 HTTP/3：一次把演进讲清楚</title>
       <link>https://forminio.github.io/posts/http-evolution/</link>
       <pubDate>Sun, 07 Sep 2025 15:10:00 +0800</pubDate>
-      
       <guid>https://forminio.github.io/posts/http-evolution/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;为什么需要 HTTP/2&#xA;    &lt;div id=&#34;为什么需要-http2&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%b8%ba%e4%bb%80%e4%b9%88%e9%9c%80%e8%a6%81-http2&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;HTTP/1.1 用 &lt;code&gt;keep-alive&lt;/code&gt; 复用了 TCP 连接，但同一条连接上的请求必须串行：前一个响应没回来，后一个只能排队。这就是&lt;strong&gt;应用层队头阻塞&lt;/strong&gt;。&lt;/p&gt;</description>
-      
     </item>
-    
     <item>
       <title>MySQL 索引失效的十个常见场景</title>
       <link>https://forminio.github.io/posts/mysql-index-pitfalls/</link>
       <pubDate>Wed, 30 Apr 2025 09:20:00 +0800</pubDate>
-      
       <guid>https://forminio.github.io/posts/mysql-index-pitfalls/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;前言&#xA;    &lt;div id=&#34;前言&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e5%89%8d%e8%a8%80&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;线上一条查询突然从 20ms 涨到 2s，&lt;code&gt;EXPLAIN&lt;/code&gt; 一看 &lt;code&gt;type=ALL&lt;/code&gt;。表上明明有索引，为什么没走？大多数“索引失效”并不是索引坏了，而是写法让优化器没法用。&lt;/p&gt;</description>
-      
     </item>
-    
   </channel>
 </rss>

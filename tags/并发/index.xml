@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>并发 on 这是来自forminio的博客</title>
+    <title>并发 · 这是来自forminio的博客</title>
     <link>https://forminio.github.io/tags/%E5%B9%B6%E5%8F%91/</link>
-    <description>Recent content in 并发 on 这是来自forminio的博客</description>
+    <description>并发 · know is know ，no know is no know</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2026 Forminio</copyright>
-    <lastBuildDate>Wed, 21 Jan 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://forminio.github.io/tags/%E5%B9%B6%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Wed, 21 Jan 2026 10:00:00 +0800</lastBuildDate>
+    <atom:link href="https://forminio.github.io/tags/%E5%B9%B6%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>分布式锁的四种实现与踩坑记录</title>
       <link>https://forminio.github.io/posts/distributed-lock-practices/</link>
       <pubDate>Wed, 21 Jan 2026 10:00:00 +0800</pubDate>
-      
       <guid>https://forminio.github.io/posts/distributed-lock-practices/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;为什么单机锁不够&#xA;    &lt;div id=&#34;为什么单机锁不够&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%b8%ba%e4%bb%80%e4%b9%88%e5%8d%95%e6%9c%ba%e9%94%81%e4%b8%8d%e5%a4%9f&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;synchronized&lt;/code&gt; 和 &lt;code&gt;ReentrantLock&lt;/code&gt; 只能保证同一个 JVM 内的互斥。服务一旦多实例部署，两个线程可能在不同进程里同时拿到“锁”，库存照样超卖。&lt;/p&gt;</description>
-      
     </item>
-    
   </channel>
 </rss>

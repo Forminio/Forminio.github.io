@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>词云 on 这是来自forminio的博客</title>
+    <title>词云 · 这是来自forminio的博客</title>
     <link>https://forminio.github.io/cloud/</link>
-    <description>Recent content in 词云 on 这是来自forminio的博客</description>
+    <description>词云 · know is know ，no know is no know</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2026 Forminio</copyright>
     <atom:link href="https://forminio.github.io/cloud/index.xml" rel="self" type="application/rss+xml" />
-    
   </channel>
 </rss>
