@@ -3,19 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://forminio.github.io/categories/</loc>
-    <lastmod>2026-10-24T00:45:00+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://forminio.github.io/tags/</loc>
-    <lastmod>2026-10-24T00:45:00+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://forminio.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
     <lastmod>2026-10-24T00:45:00+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
@@ -41,18 +29,6 @@
   <url>
     <loc>https://forminio.github.io/</loc>
     <lastmod>2026-10-24T00:45:00+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://forminio.github.io/categories/%E5%90%8E%E7%AB%AF%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2026-10-20T20:45:00+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://forminio.github.io/categories/%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2026-10-20T20:45:00+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
@@ -88,12 +64,6 @@
   </url>
   <url>
     <loc>https://forminio.github.io/tags/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/</loc>
-    <lastmod>2026-08-21T09:45:00+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://forminio.github.io/categories/%E4%B8%AD%E9%97%B4%E4%BB%B6/</loc>
     <lastmod>2026-08-21T09:45:00+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
@@ -213,12 +183,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://forminio.github.io/categories/devops/</loc>
-    <lastmod>2025-10-22T11:05:00+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://forminio.github.io/tags/docker/</loc>
     <lastmod>2025-10-22T11:05:00+08:00</lastmod>
     <changefreq>always</changefreq>
@@ -297,7 +261,22 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://forminio.github.io/collections/ai-exploration/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://forminio.github.io/collections/frontend-refactor/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://forminio.github.io/cloud/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://forminio.github.io/collections/distributed-systems/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
@@ -312,7 +291,27 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://forminio.github.io/collections/computer-giants/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://forminio.github.io/collections/go-in-action/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://forminio.github.io/anime/add/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://forminio.github.io/collections/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://forminio.github.io/collections/handy-tricks/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>

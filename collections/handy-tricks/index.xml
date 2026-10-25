@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>有趣的小技巧 · 这是来自forminio的博客</title>
+    <link>https://forminio.github.io/collections/handy-tricks/</link>
+    <description>有趣的小技巧 · know is know ，no know is no know</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2026 Forminio</copyright>
+    <atom:link href="https://forminio.github.io/collections/handy-tricks/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
