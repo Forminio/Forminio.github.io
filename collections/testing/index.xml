@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Testing · 这是来自forminio的博客</title>
+    <link>https://forminio.github.io/collections/testing/</link>
+    <description>Testing · know is know ，no know is no know</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2026 Forminio</copyright>
+    <lastBuildDate>Wed, 02 Sep 2026 14:20:00 +0800</lastBuildDate>
+    <atom:link href="https://forminio.github.io/collections/testing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>单测别只为了凑覆盖率：几个真正会救命的断言写法</title>
+      <link>https://forminio.github.io/posts/write-assertions-that-matter/</link>
+      <pubDate>Wed, 02 Sep 2026 14:20:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/write-assertions-that-matter/</guid>
+      <description>&lt;p&gt;说个我自己的毛病：早几年写单测，打开覆盖率报告看到 90% 就心里踏实，然后发版。直到有一次线上把金额算错了一块多钱，一查，那块逻辑明明&amp;quot;被覆盖&amp;quot;了——因为它只断言了方法跑通、没断言算出来的数对不对。从那以后我写测试的顺序变了，先想&amp;quot;我要断言什么&amp;quot;，再想&amp;quot;怎么把场景搭出来&amp;quot;。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

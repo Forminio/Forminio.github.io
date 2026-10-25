@@ -31,11 +31,32 @@
       <description>&lt;h2 class=&#34;relative group&#34;&gt;网络模型&#xA;    &lt;div id=&#34;网络模型&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e7%bd%91%e7%bb%9c%e6%a8%a1%e5%9e%8b&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;网络模型分为两类一类是OSI模型，共七层，一类是TCP/IP模型，共四层&lt;/p&gt;</description>
     </item>
     <item>
+      <title>单测别只为了凑覆盖率：几个真正会救命的断言写法</title>
+      <link>https://forminio.github.io/posts/write-assertions-that-matter/</link>
+      <pubDate>Wed, 02 Sep 2026 14:20:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/write-assertions-that-matter/</guid>
+      <description>&lt;p&gt;说个我自己的毛病：早几年写单测，打开覆盖率报告看到 90% 就心里踏实，然后发版。直到有一次线上把金额算错了一块多钱，一查，那块逻辑明明&amp;quot;被覆盖&amp;quot;了——因为它只断言了方法跑通、没断言算出来的数对不对。从那以后我写测试的顺序变了，先想&amp;quot;我要断言什么&amp;quot;，再想&amp;quot;怎么把场景搭出来&amp;quot;。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>生产 CPU 一直 100% 的那个下午，我用一套命令串到底</title>
+      <link>https://forminio.github.io/posts/cpu-100-troubleshooting/</link>
+      <pubDate>Mon, 24 Aug 2026 16:40:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/cpu-100-troubleshooting/</guid>
+      <description>&lt;p&gt;说个真人真事。有天一上班就看到告警：某台机器 CPU 打满，重启以后没几分钟又上去了。我当时第一反应是&amp;quot;先看是谁在烧&amp;quot;，结果从 &lt;code&gt;top&lt;/code&gt; 一路查到线程栈，才发现元凶是个不起眼的调试日志在疯狂循环刷。这套命令谁都会，但按顺序串起来用，能少走很多弯路。这篇就当自己的笔记，顺便给你一份顺手能抄的排查清单。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Kafka 消息积压的排查与治理</title>
       <link>https://forminio.github.io/posts/kafka-consumer-lag/</link>
       <pubDate>Fri, 21 Aug 2026 09:45:00 +0800</pubDate>
       <guid>https://forminio.github.io/posts/kafka-consumer-lag/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;先确认是不是真的积压&#xA;    &lt;div id=&#34;先确认是不是真的积压&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e5%85%88%e7%a1%ae%e8%ae%a4%e6%98%af%e4%b8%8d%e6%98%af%e7%9c%9f%e7%9a%84%e7%a7%af%e5%8e%8b&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;告警说“消息积压”，第一步不是扩容，而是确认 lag 的趋势：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>移动端点击穿透：那个让我加了一晚上班的 Bug</title>
+      <link>https://forminio.github.io/posts/mobile-click-penetration/</link>
+      <pubDate>Sun, 16 Aug 2026 09:30:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/mobile-click-penetration/</guid>
+      <description>&lt;p&gt;先说个背景。那阵子在做一个 H5 活动页，最后一版功能都齐了，QA 在小程序里点了几下，报了一个&amp;quot;点了取消，结果把底下的按钮也点了&amp;quot;的问题。我当时第一反应是 JS 逻辑写 bug 了，结果从白天查到晚上，才发现根本不是逻辑问题，是移动端浏览器在背后搞的鬼。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Spring Boot 3 &#43; GraalVM Native Image 实践</title>

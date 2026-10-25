@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Frontend-Tricks · 这是来自forminio的博客</title>
+    <link>https://forminio.github.io/collections/frontend-tricks/</link>
+    <description>Frontend-Tricks · know is know ，no know is no know</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2026 Forminio</copyright>
+    <lastBuildDate>Sun, 16 Aug 2026 09:30:00 +0800</lastBuildDate>
+    <atom:link href="https://forminio.github.io/collections/frontend-tricks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>移动端点击穿透：那个让我加了一晚上班的 Bug</title>
+      <link>https://forminio.github.io/posts/mobile-click-penetration/</link>
+      <pubDate>Sun, 16 Aug 2026 09:30:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/mobile-click-penetration/</guid>
+      <description>&lt;p&gt;先说个背景。那阵子在做一个 H5 活动页，最后一版功能都齐了，QA 在小程序里点了几下，报了一个&amp;quot;点了取消，结果把底下的按钮也点了&amp;quot;的问题。我当时第一反应是 JS 逻辑写 bug 了，结果从白天查到晚上，才发现根本不是逻辑问题，是移动端浏览器在背后搞的鬼。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

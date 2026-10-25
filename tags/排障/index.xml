@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>排障 · 这是来自forminio的博客</title>
+    <link>https://forminio.github.io/tags/%E6%8E%92%E9%9A%9C/</link>
+    <description>排障 · know is know ，no know is no know</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2026 Forminio</copyright>
+    <lastBuildDate>Mon, 24 Aug 2026 16:40:00 +0800</lastBuildDate>
+    <atom:link href="https://forminio.github.io/tags/%E6%8E%92%E9%9A%9C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>生产 CPU 一直 100% 的那个下午，我用一套命令串到底</title>
+      <link>https://forminio.github.io/posts/cpu-100-troubleshooting/</link>
+      <pubDate>Mon, 24 Aug 2026 16:40:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/cpu-100-troubleshooting/</guid>
+      <description>&lt;p&gt;说个真人真事。有天一上班就看到告警：某台机器 CPU 打满，重启以后没几分钟又上去了。我当时第一反应是&amp;quot;先看是谁在烧&amp;quot;，结果从 &lt;code&gt;top&lt;/code&gt; 一路查到线程栈，才发现元凶是个不起眼的调试日志在疯狂循环刷。这套命令谁都会，但按顺序串起来用，能少走很多弯路。这篇就当自己的笔记，顺便给你一份顺手能抄的排查清单。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

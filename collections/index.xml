@@ -1,12 +1,83 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>选集 · 这是来自forminio的博客</title>
+    <title>Collections · 这是来自forminio的博客</title>
     <link>https://forminio.github.io/collections/</link>
-    <description>选集 · know is know ，no know is no know</description>
+    <description>Collections · know is know ，no know is no know</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2026 Forminio</copyright>
+    <lastBuildDate>Sun, 25 Oct 2026 20:00:00 +0800</lastBuildDate>
     <atom:link href="https://forminio.github.io/collections/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ai-Exploration</title>
+      <link>https://forminio.github.io/collections/ai-exploration/</link>
+      <pubDate>Sun, 25 Oct 2026 20:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/collections/ai-exploration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Handy-Tricks</title>
+      <link>https://forminio.github.io/collections/handy-tricks/</link>
+      <pubDate>Sun, 25 Oct 2026 20:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/collections/handy-tricks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Computer-Giants</title>
+      <link>https://forminio.github.io/collections/computer-giants/</link>
+      <pubDate>Tue, 20 Oct 2026 20:45:00 +0800</pubDate>
+      <guid>https://forminio.github.io/collections/computer-giants/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Testing</title>
+      <link>https://forminio.github.io/collections/testing/</link>
+      <pubDate>Wed, 02 Sep 2026 14:20:00 +0800</pubDate>
+      <guid>https://forminio.github.io/collections/testing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ops-Tools</title>
+      <link>https://forminio.github.io/collections/ops-tools/</link>
+      <pubDate>Mon, 24 Aug 2026 16:40:00 +0800</pubDate>
+      <guid>https://forminio.github.io/collections/ops-tools/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Distributed-Systems</title>
+      <link>https://forminio.github.io/collections/distributed-systems/</link>
+      <pubDate>Fri, 21 Aug 2026 09:45:00 +0800</pubDate>
+      <guid>https://forminio.github.io/collections/distributed-systems/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Frontend-Refactor</title>
+      <link>https://forminio.github.io/collections/frontend-refactor/</link>
+      <pubDate>Fri, 21 Aug 2026 09:45:00 +0800</pubDate>
+      <guid>https://forminio.github.io/collections/frontend-refactor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Frontend-Tricks</title>
+      <link>https://forminio.github.io/collections/frontend-tricks/</link>
+      <pubDate>Sun, 16 Aug 2026 09:30:00 +0800</pubDate>
+      <guid>https://forminio.github.io/collections/frontend-tricks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Backend-Tech</title>
+      <link>https://forminio.github.io/collections/backend-tech/</link>
+      <pubDate>Wed, 17 Jun 2026 14:20:00 +0800</pubDate>
+      <guid>https://forminio.github.io/collections/backend-tech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Go-in-Action</title>
+      <link>https://forminio.github.io/collections/go-in-action/</link>
+      <pubDate>Tue, 28 Apr 2026 10:30:00 +0800</pubDate>
+      <guid>https://forminio.github.io/collections/go-in-action/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

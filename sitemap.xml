@@ -9,7 +9,25 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://forminio.github.io/collections/ai-exploration/</loc>
+    <lastmod>2026-10-25T20:00:00+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://forminio.github.io/tags/api/</loc>
+    <lastmod>2026-10-25T20:00:00+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://forminio.github.io/collections/</loc>
+    <lastmod>2026-10-25T20:00:00+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://forminio.github.io/collections/handy-tricks/</loc>
     <lastmod>2026-10-25T20:00:00+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
@@ -69,6 +87,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://forminio.github.io/collections/computer-giants/</loc>
+    <lastmod>2026-10-20T20:45:00+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://forminio.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
     <lastmod>2026-10-20T20:45:00+08:00</lastmod>
     <changefreq>always</changefreq>
@@ -77,6 +101,72 @@
   <url>
     <loc>https://forminio.github.io/posts/networking/</loc>
     <lastmod>2026-10-20T20:45:00+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://forminio.github.io/tags/mockito/</loc>
+    <lastmod>2026-09-02T14:20:00+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://forminio.github.io/collections/testing/</loc>
+    <lastmod>2026-09-02T14:20:00+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://forminio.github.io/tags/%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2026-09-02T14:20:00+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://forminio.github.io/posts/write-assertions-that-matter/</loc>
+    <lastmod>2026-09-02T14:20:00+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://forminio.github.io/tags/%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2026-09-02T14:20:00+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://forminio.github.io/tags/linux/</loc>
+    <lastmod>2026-08-24T16:40:00+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://forminio.github.io/collections/ops-tools/</loc>
+    <lastmod>2026-08-24T16:40:00+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://forminio.github.io/tags/%E6%8E%92%E9%9A%9C/</loc>
+    <lastmod>2026-08-24T16:40:00+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://forminio.github.io/posts/cpu-100-troubleshooting/</loc>
+    <lastmod>2026-08-24T16:40:00+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://forminio.github.io/collections/distributed-systems/</loc>
+    <lastmod>2026-08-21T09:45:00+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://forminio.github.io/collections/frontend-refactor/</loc>
+    <lastmod>2026-08-21T09:45:00+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
@@ -101,6 +191,42 @@
   <url>
     <loc>https://forminio.github.io/tags/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/</loc>
     <lastmod>2026-08-21T09:45:00+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://forminio.github.io/collections/frontend-tricks/</loc>
+    <lastmod>2026-08-16T09:30:00+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://forminio.github.io/tags/%E8%B8%A9%E5%9D%91/</loc>
+    <lastmod>2026-08-16T09:30:00+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://forminio.github.io/tags/%E5%89%8D%E7%AB%AF/</loc>
+    <lastmod>2026-08-16T09:30:00+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://forminio.github.io/tags/%E7%A7%BB%E5%8A%A8%E7%AB%AF/</loc>
+    <lastmod>2026-08-16T09:30:00+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://forminio.github.io/posts/mobile-click-penetration/</loc>
+    <lastmod>2026-08-16T09:30:00+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://forminio.github.io/collections/backend-tech/</loc>
+    <lastmod>2026-06-17T14:20:00+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
@@ -155,6 +281,12 @@
   <url>
     <loc>https://forminio.github.io/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1/</loc>
     <lastmod>2026-04-30T14:00:00+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://forminio.github.io/collections/go-in-action/</loc>
+    <lastmod>2026-04-28T10:30:00+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
@@ -297,22 +429,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://forminio.github.io/collections/ai-exploration/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://forminio.github.io/collections/frontend-refactor/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://forminio.github.io/cloud/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://forminio.github.io/collections/distributed-systems/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
@@ -327,27 +444,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://forminio.github.io/collections/computer-giants/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://forminio.github.io/collections/go-in-action/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://forminio.github.io/anime/add/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://forminio.github.io/collections/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://forminio.github.io/collections/handy-tricks/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
