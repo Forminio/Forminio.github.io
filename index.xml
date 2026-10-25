@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2026 Forminio</copyright>
-    <lastBuildDate>Sat, 24 Oct 2026 00:45:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 20:00:00 +0800</lastBuildDate>
     <atom:link href="https://forminio.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NonStop Router：给 AI 编码工具加一个永不限流的本地网关</title>
+      <link>https://forminio.github.io/posts/ai-api-failover-nonstop-router/</link>
+      <pubDate>Sun, 25 Oct 2026 20:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/ai-api-failover-nonstop-router/</guid>
+      <description>&lt;p&gt;用免费 layer 的模型 key 写代码，最崩溃的场景是：代码写一半，工具突然弹一句 &lt;code&gt;429 rate limit exceeded&lt;/code&gt;——配额用完了，接下来只能干等。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>如何永久申请免费泛域名ssl证书与证书部署 | 地表最强教程</title>
       <link>https://forminio.github.io/posts/ssl/</link>
