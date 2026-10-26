@@ -66,11 +66,39 @@
       <description>&lt;h2 class=&#34;relative group&#34;&gt;为什么要 Native Image&#xA;    &lt;div id=&#34;为什么要-native-image&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%b8%ba%e4%bb%80%e4%b9%88%e8%a6%81-native-image&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;传统 JVM 应用启动要经历类加载、字节码验证、解释执行、JIT 预热。一个中等规模的 Spring Boot 服务，冷启动 2 到 5 秒很常见，内存占用动辄几百 MB。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>自动化测试跑三个月后，怎么保持不崩</title>
+      <link>https://forminio.github.io/posts/automated-test-maintenance/</link>
+      <pubDate>Fri, 05 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/automated-test-maintenance/</guid>
+      <description>&lt;p&gt;自动化刚上线那阵子每天全绿，我还挺得意。可跑满三个月，画风就变了：每天总有几条用例飘红，一查全是环境抖、等待超时、用例互相踩，真业务 bug 反而被这堆&amp;quot;假红&amp;quot;淹没，我每天早上第一件事变成分辨哪个红是真的。那时候我才意识到，自动化不是写完就完事，它是个要一直养的东西。下面这几招是我把它从&amp;quot;天天飘&amp;quot;救回&amp;quot;基本稳&amp;quot;的关键。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GitHub Actions 给测试搭条无人值守跑道</title>
+      <link>https://forminio.github.io/posts/github-actions-test-ci/</link>
+      <pubDate>Wed, 20 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/github-actions-test-ci/</guid>
+      <description>&lt;p&gt;自动化和&amp;quot;能自动跑&amp;quot;是两回事。我能写好一批 pytest 用例，但之前跑还得靠我在本地敲命令，一忙就忘了跑回归，上线前一天才慌忙补测，晚了。后来我把这堆活儿交给 GitHub Actions：push 上去自动拉依赖、跑测试、出报告、挂了还给我发通知。相当于给测试搭了条无人值守的跑道，人只要负责写用例，其余全自动。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>团队协作 Git 习惯：分支策略与冲突处理</title>
+      <link>https://forminio.github.io/posts/git-branch-collaboration/</link>
+      <pubDate>Mon, 11 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/git-branch-collaboration/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;先定分支策略再动手&#xA;    &lt;div id=&#34;先定分支策略再动手&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e5%85%88%e5%ae%9a%e5%88%86%e6%94%af%e7%ad%96%e7%95%a5%e5%86%8d%e5%8a%a8%e6%89%8b&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;多人合作最容易乱的不是代码，是分支怎么用。最开始大家各自拉支、随便合，主线经常被弄成一团线。后来定了一套简单的约定：主分支只接受合并请求，功能分支从主分支拉出来，改完合回去。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Spring Boot零停机部署</title>
       <link>https://forminio.github.io/posts/springboot-shutdown/</link>
       <pubDate>Thu, 30 Apr 2026 14:00:00 +0800</pubDate>
       <guid>https://forminio.github.io/posts/springboot-shutdown/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;为什么需要零停机部署？&#xA;    &lt;div id=&#34;为什么需要零停机部署&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%b8%ba%e4%bb%80%e4%b9%88%e9%9c%80%e8%a6%81%e9%9b%b6%e5%81%9c%e6%9c%ba%e9%83%a8%e7%bd%b2&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;想象一下这个场景：你的应用正在处理一笔关键的支付请求，请求已经扣款成功，正准备返回结果给前端。此时运维同学执行了 &lt;code&gt;kill -9&lt;/code&gt; 强制杀死进程——结果这笔订单状态永远停留在&amp;quot;处理中&amp;quot;，用户钱扣了但订单未完成。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Redis 大 Key 和热 Key，排查与化解两手抓</title>
+      <link>https://forminio.github.io/posts/redis-bigkey-hotkey/</link>
+      <pubDate>Wed, 29 Apr 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/redis-bigkey-hotkey/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;一晚上的延迟告警，源头是个 200MB 的 key&#xA;    &lt;div id=&#34;一晚上的延迟告警源头是个-200mb-的-key&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%b8%80%e6%99%9a%e4%b8%8a%e7%9a%84%e5%bb%b6%e8%bf%9f%e5%91%8a%e8%ad%a6%e6%ba%90%e5%a4%b4%e6%98%af%e4%b8%aa-200mb-%e7%9a%84-key&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;那晚 Redis 的延迟告警一波接一波，P99 冲到几百毫秒。登录 &lt;code&gt;redis-cli&lt;/code&gt; 一查，一个 ZSET 里存了上百万个元素，单个 key 就 200MB。这就是&lt;strong&gt;大 key&lt;/strong&gt;：查询、过期、删除时单线程的 Redis 都会卡住，直接影响整台实例上的其他请求。大 key 和热 key，是 Redis 稳定性的两个头号杀手，今天都过一遍。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Redis集群搭建与实战</title>
@@ -80,11 +108,123 @@
       <description>&lt;h2 class=&#34;relative group&#34;&gt;前言&#xA;    &lt;div id=&#34;前言&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e5%89%8d%e8%a8%80&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;在高并发场景下，单节点 Redis 往往无法满足业务需求。无论是容量限制还是性能瓶颈，都促使我们必须将 Redis 扩展到多节点架构。本文将手把手带你搭建一个生产级的 Redis Cluster 集群。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Docker Compose 搭一套部署环境：服务编排与日志</title>
+      <link>https://forminio.github.io/posts/docker-compose-deployment-practice/</link>
+      <pubDate>Thu, 26 Mar 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/docker-compose-deployment-practice/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;为什么用 Compose&#xA;    &lt;div id=&#34;为什么用-compose&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%b8%ba%e4%bb%80%e4%b9%88%e7%94%a8-compose&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;单容器好管理，一旦服务多起来，起停、编排、网络配置都手忙脚乱。Compose 用一个 yaml 把整套环境定义清楚，&lt;code&gt;docker compose up -d&lt;/code&gt; 一次拉起，团队也能照着这个文件复现环境。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>数据库慢 SQL 排查：EXPLAIN 不是终点</title>
+      <link>https://forminio.github.io/posts/mysql-slow-sql-troubleshooting/</link>
+      <pubDate>Tue, 24 Mar 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/mysql-slow-sql-troubleshooting/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;一张三千万行的表，把接口拖垮了&#xA;    &lt;div id=&#34;一张三千万行的表把接口拖垮了&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%b8%80%e5%bc%a0%e4%b8%89%e5%8d%83%e4%b8%87%e8%a1%8c%e7%9a%84%e8%a1%a8%e6%8a%8a%e6%8e%a5%e5%8f%a3%e6%8b%96%e5%9e%ae%e4%ba%86&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;新上线的报表接口，前两周好好的，第三周某天下午接口从 200ms 涨到 4s。打开慢查询日志，几乎全是同一句 SQL。我用 EXPLAIN 一查，明明是走了索引，怎么还慢？这就是标题想说的：&lt;strong&gt;EXPLAIN 显示用了索引，不代表这条 SQL 就是快的。&lt;/strong&gt; 排查得一层层往下挖。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MyBatis-Plus 批量写入：别以为 foreach 就是批量</title>
+      <link>https://forminio.github.io/posts/mybatis-plus-batch-perf/</link>
+      <pubDate>Wed, 11 Mar 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/mybatis-plus-batch-perf/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;随手一个循环就&amp;quot;批量&amp;quot;了？&#xA;    &lt;div id=&#34;随手一个循环就批量了&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e9%9a%8f%e6%89%8b%e4%b8%80%e4%b8%aa%e5%be%aa%e7%8e%af%e5%b0%b1%e6%89%b9%e9%87%8f%e4%ba%86&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;有一阵子入库性能告警，我一看代码：&lt;code&gt;List&lt;/code&gt; 遍历里挨个 &lt;code&gt;save()&lt;/code&gt;，心里还美滋滋觉得是批量。等压测数据出来才打脸——那根本是逐条 INSERT，几千条数据跑出几十秒，数据库连接来回握手全耗在等待上了。&lt;strong&gt;&amp;ldquo;批量&amp;quot;两个字不是靠循环堆出来的，是让数据库一次拿到一大坨。&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>接口调试利器：Charles 抓包配合接口测试工具</title>
+      <link>https://forminio.github.io/posts/apifox-charles-api-debug/</link>
+      <pubDate>Thu, 05 Mar 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/apifox-charles-api-debug/</guid>
+      <description>&lt;p&gt;联调期最头疼的事，是&amp;quot;明明前端调了后端接口，后端说没收到&amp;quot;。两句话谁都觉得自己对，最后往往是我拿抓包工具一拦，真相立刻浮出来。我日常用的组合是 Charles 抓包看真实流量，配合接口测试工具发请求、对比行为。这套东西治好了我不少&amp;quot;玄学联调&amp;quot;的毛病。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>线上出问题，先会这几条 Linux 排查命令</title>
+      <link>https://forminio.github.io/posts/linux-troubleshoot-commands/</link>
+      <pubDate>Mon, 23 Feb 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/linux-troubleshoot-commands/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;别一上来就翻代码&#xA;    &lt;div id=&#34;别一上来就翻代码&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e5%88%ab%e4%b8%80%e4%b8%8a%e6%9d%a5%e5%b0%b1%e7%bf%bb%e4%bb%a3%e7%a0%81&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;线上报故障，第一反应最容易犯的错是直接去翻日志、改代码。真正靠谱的顺序是先用系统命令把「症状」变成「具体指标」，再决定往哪查。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Spring Data Redis 连接池：Lettuce 的坑与配置调优</title>
+      <link>https://forminio.github.io/posts/spring-data-redis-lettuce-connection/</link>
+      <pubDate>Tue, 17 Feb 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/spring-data-redis-lettuce-connection/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;一段突然变慢的缓存查询&#xA;    &lt;div id=&#34;一段突然变慢的缓存查询&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%b8%80%e6%ae%b5%e7%aa%81%e7%84%b6%e5%8f%98%e6%85%a2%e7%9a%84%e7%bc%93%e5%ad%98%e6%9f%a5%e8%af%a2&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;一次压测，Redis 延迟从 1ms 蹿到几十甚至上百 ms，P99 直接拉胯。改了一晚上参数没效果，最后发现是 &lt;strong&gt;Lettuce 的连接管理&lt;/strong&gt;在搞鬼——不是 Redis 慢，是客户端自己把请求堵在门口了。这个坑值得讲透。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Allure 报告：让自动化结果一眼看懂</title>
+      <link>https://forminio.github.io/posts/allure-test-report/</link>
+      <pubDate>Thu, 12 Feb 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/allure-test-report/</guid>
+      <description>&lt;p&gt;自动化跑完，最怕的不是用例挂，而是挂了以后没人看得懂挂在哪儿。以前 pytest 跑完给个一屏的堆栈，业务一看全是找不到元素、断言失败，只能回头找我。后来我把报告换成 Allure，它能把一条用例拆成步骤、挂上截图、标好层级，跑完点开就是一段&amp;quot;剧情&amp;quot;，问题一眼定位。今天讲讲我是怎么接进去的。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>用 InfluxDB 存秒级遥测数据：写入、保留策略与降采样</title>
+      <link>https://forminio.github.io/posts/influxdb-time-series-storage/</link>
+      <pubDate>Fri, 06 Feb 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/influxdb-time-series-storage/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;别再拿关系库硬扛秒级数据&#xA;    &lt;div id=&#34;别再拿关系库硬扛秒级数据&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e5%88%ab%e5%86%8d%e6%8b%bf%e5%85%b3%e7%b3%bb%e5%ba%93%e7%a1%ac%e6%89%9b%e7%a7%92%e7%ba%a7%e6%95%b0%e6%8d%ae&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;储能设备的 SOC、温度、功率每秒一批，攒一天就是上千万行。第一版我用 MySQL 直接插，表膨胀得吓人，查询还得扫区间，索引也救不回来。后来明确一点：&lt;strong&gt;秒级时序这种数据，就该给时序库&lt;/strong&gt;。InfluxDB 的存储引擎和压缩机制就是为这种&amp;quot;高频追加、按时间切分&amp;quot;的量身设计，落盘占用和查询效率都不是关系库能比的。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>用 Flask 顺手写个小服务：从路由到部署</title>
+      <link>https://forminio.github.io/posts/flask-quick-service/</link>
+      <pubDate>Wed, 28 Jan 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/flask-quick-service/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;为什么用 Flask&#xA;    &lt;div id=&#34;为什么用-flask&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%b8%ba%e4%bb%80%e4%b9%88%e7%94%a8-flask&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;有个内部小需求要暴露几个接口，Java 那套太重，而 Flask 轻、够快，几个人顺手就能撑起来，于是就用它写了。本文不是讲怎么搭大工程，而是把几个我认为真正实用的小环节记下来。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>一次线上 OOM 排查：从堆转储到定位泄漏对象</title>
+      <link>https://forminio.github.io/posts/jvm-oom-troubleshooting/</link>
+      <pubDate>Thu, 22 Jan 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/jvm-oom-troubleshooting/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;凌晨两点，服务挂了&#xA;    &lt;div id=&#34;凌晨两点服务挂了&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e5%87%8c%e6%99%a8%e4%b8%a4%e7%82%b9%e6%9c%8d%e5%8a%a1%e6%8c%82%e4%ba%86&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;那次告警是凌晨两点来的，接口全部 5xx。登上去一看，&lt;code&gt;jstat&lt;/code&gt; 显示老年代一直在涨，GC 越调越频繁，最后干脆 &lt;code&gt;OutOfMemoryError: Java heap space&lt;/code&gt;。当时的反应是慌，但后来复盘发现，OOM 排查是有套路的，不用靠猜。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>分布式锁的四种实现与踩坑记录</title>
       <link>https://forminio.github.io/posts/distributed-lock-practices/</link>
       <pubDate>Wed, 21 Jan 2026 10:00:00 +0800</pubDate>
       <guid>https://forminio.github.io/posts/distributed-lock-practices/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;为什么单机锁不够&#xA;    &lt;div id=&#34;为什么单机锁不够&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%b8%ba%e4%bb%80%e4%b9%88%e5%8d%95%e6%9c%ba%e9%94%81%e4%b8%8d%e5%a4%9f&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;synchronized&lt;/code&gt; 和 &lt;code&gt;ReentrantLock&lt;/code&gt; 只能保证同一个 JVM 内的互斥。服务一旦多实例部署，两个线程可能在不同进程里同时拿到“锁”，库存照样超卖。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>第一次拆微服务，注册中心与网关先解决的两件事</title>
+      <link>https://forminio.github.io/posts/spring-cloud-first-look/</link>
+      <pubDate>Wed, 14 Jan 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/spring-cloud-first-look/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;拆分前先想清楚&amp;quot;谁管理谁&amp;quot;&#xA;    &lt;div id=&#34;拆分前先想清楚谁管理谁&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e6%8b%86%e5%88%86%e5%89%8d%e5%85%88%e6%83%b3%e6%b8%85%e6%a5%9a%e8%b0%81%e7%ae%a1%e7%90%86%e8%b0%81&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;从单体往微服务拆，最忌讳的是一上来就开十几个服务，结果服务互相手动配置 IP，比单体还乱。我第一次拆就跌在这：服务间直接写死对方的地址，一扩缩容就全断。拆出来的第一件事必须是&lt;strong&gt;注册中心&lt;/strong&gt;——让服务地址成为动态发现，而不是写死在配置里。我选 Nacos，因为它同时承担注册中心和配置中心，一套搞定两种诉求。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Selenium4 Page Object：UI 自动化从脚本到框架</title>
+      <link>https://forminio.github.io/posts/selenium-pageobject-framework/</link>
+      <pubDate>Mon, 05 Jan 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/selenium-pageobject-framework/</guid>
+      <description>&lt;p&gt;我最开始写 UI 自动化就是&amp;quot;脚本流&amp;quot;：一个文件里 find_element、click、断言全堆一块，跑通就完事。结果一个注册流程写了两百行，页面改个 button 的 class，我得满文件找哪一行在点它。后来换成 Page Object 模式，把每一页封装成一个类，元素定位和页面动作收进去，测试方法只负责&amp;quot;讲故事&amp;quot;，这才算从脚本长成一个能维护的东西。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>爬虫入门：请求头、频率控制与反爬的攻与守</title>
+      <link>https://forminio.github.io/posts/python-crawler-anti-scraping/</link>
+      <pubDate>Mon, 29 Dec 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/python-crawler-anti-scraping/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;不要一上来就裸 requests&#xA;    &lt;div id=&#34;不要一上来就裸-requests&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%b8%8d%e8%a6%81%e4%b8%80%e4%b8%8a%e6%9d%a5%e5%b0%b1%e8%a3%b8-requests&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;第一次写爬虫图省事，直接 requests.get(url) 就去抓，结果刚跑几十个就返回一堆 403。目标站反爬很直接，先看 User-Agent 一眼认出我是程序。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>后端解析 PDF 简历：PDFBox 提取文本的坑与技巧</title>
+      <link>https://forminio.github.io/posts/pdfbox-resume-parsing/</link>
+      <pubDate>Mon, 22 Dec 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/pdfbox-resume-parsing/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;为什么 PDF 提取不靠谱&#xA;    &lt;div id=&#34;为什么-pdf-提取不靠谱&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%b8%ba%e4%bb%80%e4%b9%88-pdf-%e6%8f%90%e5%8f%96%e4%b8%8d%e9%9d%a0%e8%b0%b1&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;做后端解析 PDF 简历，踩的第一个跟头是「提取出来的文本顺序乱」。我最初以为 PDFBox 拿到文本就完事，结果打出来一看，两栏排版的简历内容被拆得七零八落，一段话横跨两行，就读不顺了。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>重复提交和请求重放，靠幂等挡住</title>
+      <link>https://forminio.github.io/posts/distributed-idempotency-defense/</link>
+      <pubDate>Fri, 19 Dec 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/distributed-idempotency-defense/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;一个按钮被点了两次&#xA;    &lt;div id=&#34;一个按钮被点了两次&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%b8%80%e4%b8%aa%e6%8c%89%e9%92%ae%e8%a2%ab%e7%82%b9%e4%ba%86%e4%b8%a4%e6%ac%a1&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;最早做支付回调，用户连点两下&amp;quot;确认&amp;quot;，或者网关超时重发，结果账上多了一笔。生产环境第一个月我就因为这个被运维喊去排查。从那以后，&amp;ldquo;幂等&amp;quot;被我写进每次接口设计的必查清单：&lt;strong&gt;同一个请求，发一次和发十次，业务结果必须一样。&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>缓存穿透、击穿、雪崩，我是怎么一层层挡住的</title>
+      <link>https://forminio.github.io/posts/redis-cache-breakdown-guarantee/</link>
+      <pubDate>Mon, 08 Dec 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/redis-cache-breakdown-guarantee/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;三种&amp;quot;坏缓存&amp;quot;别混着修&#xA;    &lt;div id=&#34;三种坏缓存别混着修&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%b8%89%e7%a7%8d%e5%9d%8f%e7%bc%93%e5%ad%98%e5%88%ab%e6%b7%b7%e7%9d%80%e4%bf%ae&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;穿透、击穿、雪崩，三个词耳熟，可我一开始老把它们当一回事去修，结果方案张冠李戴。说清楚区别才有对症下药的空间：&lt;/p&gt;</description>
     </item>
     <item>
       <title>JVM 垃圾回收器选型：Serial、G1、ZGC 怎么选</title>
@@ -94,11 +234,67 @@
       <description>&lt;h2 class=&#34;relative group&#34;&gt;先明确两个指标&#xA;    &lt;div id=&#34;先明确两个指标&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e5%85%88%e6%98%8e%e7%a1%ae%e4%b8%a4%e4%b8%aa%e6%8c%87%e6%a0%87&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;选 GC 之前，先回答两个问题：&lt;/p&gt;</description>
     </item>
     <item>
+      <title>并发场景锁怎么选：synchronized、ReentrantLock 还是乐观锁</title>
+      <link>https://forminio.github.io/posts/java-concurrency-lock-selection/</link>
+      <pubDate>Thu, 27 Nov 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/java-concurrency-lock-selection/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;先回答&amp;quot;到底用哪把锁&amp;quot;&#xA;    &lt;div id=&#34;先回答到底用哪把锁&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e5%85%88%e5%9b%9e%e7%ad%94%e5%88%b0%e5%ba%95%e7%94%a8%e5%93%aa%e6%8a%8a%e9%94%81&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;新人总爱问：线程安全是不是无脑 &lt;code&gt;synchronized&lt;/code&gt;？不是。选锁之前的第一个问题应该是：&lt;strong&gt;这个数据是读多写少，还是写冲突很多？&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>RabbitMQ 可靠投递：从生产到消费全链路不丢消息</title>
+      <link>https://forminio.github.io/posts/rabbitmq-reliable-delivery/</link>
+      <pubDate>Wed, 19 Nov 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/rabbitmq-reliable-delivery/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;不丢消息是三层防线的事&#xA;    &lt;div id=&#34;不丢消息是三层防线的事&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%b8%8d%e4%b8%a2%e6%b6%88%e6%81%af%e6%98%af%e4%b8%89%e5%b1%82%e9%98%b2%e7%ba%bf%e7%9a%84%e4%ba%8b&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;刚接手消息链路时，我想当然地觉得&amp;quot;消息发出去了就完事&amp;quot;。结果某天数据对账发现差了一批，一查是 broker 重启时内存里没来得及落盘的消息没了。&lt;strong&gt;消息会丢在三个地方：生产端发送、broker 存储、消费端确认&lt;/strong&gt;。哪一层没守住，链路就漏。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SentenceTransformer 文本向量化：相似度匹配怎么落地</title>
+      <link>https://forminio.github.io/posts/sentence-transformer-embedding/</link>
+      <pubDate>Wed, 12 Nov 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/sentence-transformer-embedding/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;为什么会想到用向量化&#xA;    &lt;div id=&#34;为什么会想到用向量化&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%b8%ba%e4%bb%80%e4%b9%88%e4%bc%9a%e6%83%b3%e5%88%b0%e7%94%a8%e5%90%91%e9%87%8f%e5%8c%96&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;之前做文本匹配一直走关键词和正则，遇到一句话换个说法就匹配不上了。比如&amp;quot;熟练掌握 Python&amp;quot;和&amp;quot;精通 Py&amp;quot;应该是一个意思，正则完全看不出来。于是我开始尝试把两段文本各自转成向量，用余弦相似度判断亲疏。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>@Scheduled 秒级调度不是无脑 Cron：幂等与补偿才是难点</title>
+      <link>https://forminio.github.io/posts/scheduled-task-dispatch/</link>
+      <pubDate>Thu, 06 Nov 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/scheduled-task-dispatch/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Cron 随手一写，坑是后置的&#xA;    &lt;div id=&#34;cron-随手一写坑是后置的&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#cron-%e9%9a%8f%e6%89%8b%e4%b8%80%e5%86%99%e5%9d%91%e6%98%af%e5%90%8e%e7%bd%ae%e7%9a%84&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;早期我写定时任务特顺手，&lt;code&gt;@Scheduled(cron = &amp;quot;0 0 1 * * ?&amp;quot;)&lt;/code&gt; 一摆，接口里对着库扫一遍就完事。可一到多实例部署就穿帮了：两个 Pod 同时到点，同一个任务跑两遍，脏数据、重复扣减全来了。所以说秒级调度，&lt;strong&gt;真正难得不是哪秒触发，而是触发了之后怎么保证只干一次、干错了能兜回来&lt;/strong&gt;。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>用 DeepSeek API 做文本匹配：上下文清洗比调 prompt 更关键</title>
+      <link>https://forminio.github.io/posts/deepseek-prompt-resume-matching/</link>
+      <pubDate>Sun, 26 Oct 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/deepseek-prompt-resume-matching/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;需求最初长什么样&#xA;    &lt;div id=&#34;需求最初长什么样&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e9%9c%80%e6%b1%82%e6%9c%80%e5%88%9d%e9%95%bf%e4%bb%80%e4%b9%88%e6%a0%b7&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;需求是让我做一个候选文档与岗位要求的文本匹配打分。一开始我以为重点在堆 prompt：提示词越长、约束越多、就越准。结果试了几轮，效果忽高忽低，同一份输入，换个措辞结果就变。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Docker 镜像瘦身：从 1.2GB 到 180MB</title>
       <link>https://forminio.github.io/posts/docker-image-slim/</link>
       <pubDate>Wed, 22 Oct 2025 11:05:00 +0800</pubDate>
       <guid>https://forminio.github.io/posts/docker-image-slim/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;镜像为什么越做越大&#xA;    &lt;div id=&#34;镜像为什么越做越大&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e9%95%9c%e5%83%8f%e4%b8%ba%e4%bb%80%e4%b9%88%e8%b6%8a%e5%81%9a%e8%b6%8a%e5%a4%a7&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;一个常见的 Spring Boot 项目，&lt;code&gt;docker images&lt;/code&gt; 里躺着 1.2GB 的镜像：Maven、JDK、源码、&lt;code&gt;.git&lt;/code&gt;、测试报告、本地仓库全都打了进去。镜像大不只是占硬盘，它还会拉慢发布、扩大攻击面、增加每台节点的存储压力。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MySQL 事务隔离级与 MVCC：从脏读说起，一层层剥开</title>
+      <link>https://forminio.github.io/posts/mysql-transaction-isolation-mvcc/</link>
+      <pubDate>Sat, 18 Oct 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/mysql-transaction-isolation-mvcc/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;一次被脏读教做人的经历&#xA;    &lt;div id=&#34;一次被脏读教做人的经历&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%b8%80%e6%ac%a1%e8%a2%ab%e8%84%8f%e8%af%bb%e6%95%99%e5%81%9a%e4%ba%ba%e7%9a%84%e7%bb%8f%e5%8e%86&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;刚接手一个财务对账系统，有个同事写了个定时任务，先 &lt;code&gt;UPDATE&lt;/code&gt; 一笔订单状态，再去读另一张表聚合出结果。某个晚上线上出现了一笔&amp;quot;对不上账&amp;quot;的告警，排查到后面才发现：任务跑在&lt;strong&gt;读未提交&lt;/strong&gt;的隔离级别下，自己还没提交的数据被别人读走了。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>pytest 数据驱动：参数化写测试，少写一半重复代码</title>
+      <link>https://forminio.github.io/posts/pytest-data-driven-testing/</link>
+      <pubDate>Thu, 09 Oct 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/pytest-data-driven-testing/</guid>
+      <description>&lt;p&gt;写接口测试前期我是最原始的做法：一个接口一个用例函数，数据全写死在函数体里。结果一个&amp;quot;查询订单&amp;quot;的接口，我写了七八个几乎一样的分支，就改了订单状态和期望值。后来我才明白，这种场景本来就不该一个个手写，用 pytest 的参数化，一套逻辑喂十几个场景，代码量瞬间砍半还不止。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>储能设备 MQTT 实时上报：从接入到落库的完整链路</title>
+      <link>https://forminio.github.io/posts/mqtt-telemetry-ingestion/</link>
+      <pubDate>Sun, 05 Oct 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/mqtt-telemetry-ingestion/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;先说说设备端什么脾气&#xA;    &lt;div id=&#34;先说说设备端什么脾气&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e5%85%88%e8%af%b4%e8%af%b4%e8%ae%be%e5%a4%87%e7%ab%af%e4%bb%80%e4%b9%88%e8%84%be%e6%b0%94&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;储能柜里的设备上报频率说高不高、说低不低，SOC、电压、温度这些量基本是秒级一条，高峰能到几百台集群同时推。一开始我图省事，直接让每台设备连独立 client，一上线后台 broker 链接哗啦涨到几千条，线程池差点被打穿。后来才明白：&lt;strong&gt;设备多、消息频率高&lt;/strong&gt;这条路上，第一件事不是写落库代码，而是先想清楚接入姿势。&lt;/p&gt;</description>
     </item>
     <item>
       <title>从 HTTP/1.1 到 HTTP/3：一次把演进讲清楚</title>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EXPLAIN · 这是来自forminio的博客</title>
+    <link>https://forminio.github.io/tags/explain/</link>
+    <description>EXPLAIN · know is know ，no know is no know</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2026 Forminio</copyright>
+    <lastBuildDate>Tue, 24 Mar 2026 10:00:00 +0800</lastBuildDate>
+    <atom:link href="https://forminio.github.io/tags/explain/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>数据库慢 SQL 排查：EXPLAIN 不是终点</title>
+      <link>https://forminio.github.io/posts/mysql-slow-sql-troubleshooting/</link>
+      <pubDate>Tue, 24 Mar 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/mysql-slow-sql-troubleshooting/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;一张三千万行的表，把接口拖垮了&#xA;    &lt;div id=&#34;一张三千万行的表把接口拖垮了&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%b8%80%e5%bc%a0%e4%b8%89%e5%8d%83%e4%b8%87%e8%a1%8c%e7%9a%84%e8%a1%a8%e6%8a%8a%e6%8e%a5%e5%8f%a3%e6%8b%96%e5%9e%ae%e4%ba%86&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;新上线的报表接口，前两周好好的，第三周某天下午接口从 200ms 涨到 4s。打开慢查询日志，几乎全是同一句 SQL。我用 EXPLAIN 一查，明明是走了索引，怎么还慢？这就是标题想说的：&lt;strong&gt;EXPLAIN 显示用了索引，不代表这条 SQL 就是快的。&lt;/strong&gt; 排查得一层层往下挖。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

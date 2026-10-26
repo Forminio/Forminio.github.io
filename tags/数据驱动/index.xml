@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>数据驱动 · 这是来自forminio的博客</title>
+    <link>https://forminio.github.io/tags/%E6%95%B0%E6%8D%AE%E9%A9%B1%E5%8A%A8/</link>
+    <description>数据驱动 · know is know ，no know is no know</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2026 Forminio</copyright>
+    <lastBuildDate>Thu, 09 Oct 2025 10:00:00 +0800</lastBuildDate>
+    <atom:link href="https://forminio.github.io/tags/%E6%95%B0%E6%8D%AE%E9%A9%B1%E5%8A%A8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>pytest 数据驱动：参数化写测试，少写一半重复代码</title>
+      <link>https://forminio.github.io/posts/pytest-data-driven-testing/</link>
+      <pubDate>Thu, 09 Oct 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/pytest-data-driven-testing/</guid>
+      <description>&lt;p&gt;写接口测试前期我是最原始的做法：一个接口一个用例函数，数据全写死在函数体里。结果一个&amp;quot;查询订单&amp;quot;的接口，我写了七八个几乎一样的分支，就改了订单状态和期望值。后来我才明白，这种场景本来就不该一个个手写，用 pytest 的参数化，一套逻辑喂十几个场景，代码量瞬间砍半还不止。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

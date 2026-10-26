@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CAS · 这是来自forminio的博客</title>
+    <link>https://forminio.github.io/tags/cas/</link>
+    <description>CAS · know is know ，no know is no know</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2026 Forminio</copyright>
+    <lastBuildDate>Thu, 27 Nov 2025 10:00:00 +0800</lastBuildDate>
+    <atom:link href="https://forminio.github.io/tags/cas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>并发场景锁怎么选：synchronized、ReentrantLock 还是乐观锁</title>
+      <link>https://forminio.github.io/posts/java-concurrency-lock-selection/</link>
+      <pubDate>Thu, 27 Nov 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/java-concurrency-lock-selection/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;先回答&amp;quot;到底用哪把锁&amp;quot;&#xA;    &lt;div id=&#34;先回答到底用哪把锁&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e5%85%88%e5%9b%9e%e7%ad%94%e5%88%b0%e5%ba%95%e7%94%a8%e5%93%aa%e6%8a%8a%e9%94%81&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;新人总爱问：线程安全是不是无脑 &lt;code&gt;synchronized&lt;/code&gt;？不是。选锁之前的第一个问题应该是：&lt;strong&gt;这个数据是读多写少，还是写冲突很多？&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

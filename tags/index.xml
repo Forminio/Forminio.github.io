@@ -164,6 +164,76 @@
       <description></description>
     </item>
     <item>
+      <title>Pytest</title>
+      <link>https://forminio.github.io/tags/pytest/</link>
+      <pubDate>Fri, 05 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/pytest/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>维护</title>
+      <link>https://forminio.github.io/tags/%E7%BB%B4%E6%8A%A4/</link>
+      <pubDate>Fri, 05 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E7%BB%B4%E6%8A%A4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>稳定性</title>
+      <link>https://forminio.github.io/tags/%E7%A8%B3%E5%AE%9A%E6%80%A7/</link>
+      <pubDate>Fri, 05 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E7%A8%B3%E5%AE%9A%E6%80%A7/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>自动化测试</title>
+      <link>https://forminio.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/</link>
+      <pubDate>Fri, 05 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CI</title>
+      <link>https://forminio.github.io/tags/ci/</link>
+      <pubDate>Wed, 20 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/ci/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GitHub Actions</title>
+      <link>https://forminio.github.io/tags/github-actions/</link>
+      <pubDate>Wed, 20 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/github-actions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git</title>
+      <link>https://forminio.github.io/tags/git/</link>
+      <pubDate>Mon, 11 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>版本控制</title>
+      <link>https://forminio.github.io/tags/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/</link>
+      <pubDate>Mon, 11 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>分支</title>
+      <link>https://forminio.github.io/tags/%E5%88%86%E6%94%AF/</link>
+      <pubDate>Mon, 11 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E5%88%86%E6%94%AF/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>协作</title>
+      <link>https://forminio.github.io/tags/%E5%8D%8F%E4%BD%9C/</link>
+      <pubDate>Mon, 11 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E5%8D%8F%E4%BD%9C/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>DevOps</title>
       <link>https://forminio.github.io/tags/devops/</link>
       <pubDate>Thu, 30 Apr 2026 14:00:00 +0800</pubDate>
@@ -187,8 +257,29 @@
     <item>
       <title>Redis</title>
       <link>https://forminio.github.io/tags/redis/</link>
-      <pubDate>Tue, 28 Apr 2026 10:30:00 +0800</pubDate>
+      <pubDate>Wed, 29 Apr 2026 10:00:00 +0800</pubDate>
       <guid>https://forminio.github.io/tags/redis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>大Key</title>
+      <link>https://forminio.github.io/tags/%E5%A4%A7key/</link>
+      <pubDate>Wed, 29 Apr 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E5%A4%A7key/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>高可用</title>
+      <link>https://forminio.github.io/tags/%E9%AB%98%E5%8F%AF%E7%94%A8/</link>
+      <pubDate>Wed, 29 Apr 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E9%AB%98%E5%8F%AF%E7%94%A8/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>热Key</title>
+      <link>https://forminio.github.io/tags/%E7%83%ADkey/</link>
+      <pubDate>Wed, 29 Apr 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E7%83%ADkey/</guid>
       <description></description>
     </item>
     <item>
@@ -196,6 +287,216 @@
       <link>https://forminio.github.io/tags/%E7%BC%93%E5%AD%98/</link>
       <pubDate>Tue, 28 Apr 2026 10:30:00 +0800</pubDate>
       <guid>https://forminio.github.io/tags/%E7%BC%93%E5%AD%98/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Compose</title>
+      <link>https://forminio.github.io/tags/compose/</link>
+      <pubDate>Thu, 26 Mar 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/compose/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>https://forminio.github.io/tags/docker/</link>
+      <pubDate>Thu, 26 Mar 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>部署</title>
+      <link>https://forminio.github.io/tags/%E9%83%A8%E7%BD%B2/</link>
+      <pubDate>Thu, 26 Mar 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E9%83%A8%E7%BD%B2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>EXPLAIN</title>
+      <link>https://forminio.github.io/tags/explain/</link>
+      <pubDate>Tue, 24 Mar 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/explain/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MySQL</title>
+      <link>https://forminio.github.io/tags/mysql/</link>
+      <pubDate>Tue, 24 Mar 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/mysql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>慢SQL</title>
+      <link>https://forminio.github.io/tags/%E6%85%A2sql/</link>
+      <pubDate>Tue, 24 Mar 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E6%85%A2sql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>优化</title>
+      <link>https://forminio.github.io/tags/%E4%BC%98%E5%8C%96/</link>
+      <pubDate>Tue, 24 Mar 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E4%BC%98%E5%8C%96/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MyBatis-Plus</title>
+      <link>https://forminio.github.io/tags/mybatis-plus/</link>
+      <pubDate>Wed, 11 Mar 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/mybatis-plus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>批处理</title>
+      <link>https://forminio.github.io/tags/%E6%89%B9%E5%A4%84%E7%90%86/</link>
+      <pubDate>Wed, 11 Mar 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E6%89%B9%E5%A4%84%E7%90%86/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>性能</title>
+      <link>https://forminio.github.io/tags/%E6%80%A7%E8%83%BD/</link>
+      <pubDate>Wed, 11 Mar 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E6%80%A7%E8%83%BD/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Charles</title>
+      <link>https://forminio.github.io/tags/charles/</link>
+      <pubDate>Thu, 05 Mar 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/charles/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>调试</title>
+      <link>https://forminio.github.io/tags/%E8%B0%83%E8%AF%95/</link>
+      <pubDate>Thu, 05 Mar 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E8%B0%83%E8%AF%95/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>接口测试</title>
+      <link>https://forminio.github.io/tags/%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/</link>
+      <pubDate>Thu, 05 Mar 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>抓包</title>
+      <link>https://forminio.github.io/tags/%E6%8A%93%E5%8C%85/</link>
+      <pubDate>Thu, 05 Mar 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E6%8A%93%E5%8C%85/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>命令</title>
+      <link>https://forminio.github.io/tags/%E5%91%BD%E4%BB%A4/</link>
+      <pubDate>Mon, 23 Feb 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E5%91%BD%E4%BB%A4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>排查</title>
+      <link>https://forminio.github.io/tags/%E6%8E%92%E6%9F%A5/</link>
+      <pubDate>Mon, 23 Feb 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E6%8E%92%E6%9F%A5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lettuce</title>
+      <link>https://forminio.github.io/tags/lettuce/</link>
+      <pubDate>Tue, 17 Feb 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/lettuce/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spring Data</title>
+      <link>https://forminio.github.io/tags/spring-data/</link>
+      <pubDate>Tue, 17 Feb 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/spring-data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>连接池</title>
+      <link>https://forminio.github.io/tags/%E8%BF%9E%E6%8E%A5%E6%B1%A0/</link>
+      <pubDate>Tue, 17 Feb 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E8%BF%9E%E6%8E%A5%E6%B1%A0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Allure</title>
+      <link>https://forminio.github.io/tags/allure/</link>
+      <pubDate>Thu, 12 Feb 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/allure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>测试报告</title>
+      <link>https://forminio.github.io/tags/%E6%B5%8B%E8%AF%95%E6%8A%A5%E5%91%8A/</link>
+      <pubDate>Thu, 12 Feb 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E6%B5%8B%E8%AF%95%E6%8A%A5%E5%91%8A/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>InfluxDB</title>
+      <link>https://forminio.github.io/tags/influxdb/</link>
+      <pubDate>Fri, 06 Feb 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/influxdb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>存储</title>
+      <link>https://forminio.github.io/tags/%E5%AD%98%E5%82%A8/</link>
+      <pubDate>Fri, 06 Feb 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E5%AD%98%E5%82%A8/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>时序数据库</title>
+      <link>https://forminio.github.io/tags/%E6%97%B6%E5%BA%8F%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+      <pubDate>Fri, 06 Feb 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E6%97%B6%E5%BA%8F%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Flask</title>
+      <link>https://forminio.github.io/tags/flask/</link>
+      <pubDate>Wed, 28 Jan 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/flask/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://forminio.github.io/tags/python/</link>
+      <pubDate>Wed, 28 Jan 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>REST</title>
+      <link>https://forminio.github.io/tags/rest/</link>
+      <pubDate>Wed, 28 Jan 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/rest/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JVM</title>
+      <link>https://forminio.github.io/tags/jvm/</link>
+      <pubDate>Thu, 22 Jan 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/jvm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OOM</title>
+      <link>https://forminio.github.io/tags/oom/</link>
+      <pubDate>Thu, 22 Jan 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/oom/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>内存溢出</title>
+      <link>https://forminio.github.io/tags/%E5%86%85%E5%AD%98%E6%BA%A2%E5%87%BA/</link>
+      <pubDate>Thu, 22 Jan 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E5%86%85%E5%AD%98%E6%BA%A2%E5%87%BA/</guid>
       <description></description>
     </item>
     <item>
@@ -213,6 +514,104 @@
       <description></description>
     </item>
     <item>
+      <title>Nacos</title>
+      <link>https://forminio.github.io/tags/nacos/</link>
+      <pubDate>Wed, 14 Jan 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/nacos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spring Cloud</title>
+      <link>https://forminio.github.io/tags/spring-cloud/</link>
+      <pubDate>Wed, 14 Jan 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/spring-cloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>网关</title>
+      <link>https://forminio.github.io/tags/%E7%BD%91%E5%85%B3/</link>
+      <pubDate>Wed, 14 Jan 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E7%BD%91%E5%85%B3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PageObject</title>
+      <link>https://forminio.github.io/tags/pageobject/</link>
+      <pubDate>Mon, 05 Jan 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/pageobject/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Selenium</title>
+      <link>https://forminio.github.io/tags/selenium/</link>
+      <pubDate>Mon, 05 Jan 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/selenium/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>UI自动化</title>
+      <link>https://forminio.github.io/tags/ui%E8%87%AA%E5%8A%A8%E5%8C%96/</link>
+      <pubDate>Mon, 05 Jan 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/ui%E8%87%AA%E5%8A%A8%E5%8C%96/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Requests</title>
+      <link>https://forminio.github.io/tags/requests/</link>
+      <pubDate>Mon, 29 Dec 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/requests/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>反爬</title>
+      <link>https://forminio.github.io/tags/%E5%8F%8D%E7%88%AC/</link>
+      <pubDate>Mon, 29 Dec 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E5%8F%8D%E7%88%AC/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>爬虫</title>
+      <link>https://forminio.github.io/tags/%E7%88%AC%E8%99%AB/</link>
+      <pubDate>Mon, 29 Dec 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E7%88%AC%E8%99%AB/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PDF</title>
+      <link>https://forminio.github.io/tags/pdf/</link>
+      <pubDate>Mon, 22 Dec 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/pdf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PDFBox</title>
+      <link>https://forminio.github.io/tags/pdfbox/</link>
+      <pubDate>Mon, 22 Dec 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/pdfbox/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>解析</title>
+      <link>https://forminio.github.io/tags/%E8%A7%A3%E6%9E%90/</link>
+      <pubDate>Mon, 22 Dec 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E8%A7%A3%E6%9E%90/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>接口设计</title>
+      <link>https://forminio.github.io/tags/%E6%8E%A5%E5%8F%A3%E8%AE%BE%E8%AE%A1/</link>
+      <pubDate>Fri, 19 Dec 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E6%8E%A5%E5%8F%A3%E8%AE%BE%E8%AE%A1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>幂等</title>
+      <link>https://forminio.github.io/tags/%E5%B9%82%E7%AD%89/</link>
+      <pubDate>Fri, 19 Dec 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E5%B9%82%E7%AD%89/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>GC</title>
       <link>https://forminio.github.io/tags/gc/</link>
       <pubDate>Sat, 06 Dec 2025 20:30:00 +0800</pubDate>
@@ -220,24 +619,108 @@
       <description></description>
     </item>
     <item>
-      <title>JVM</title>
-      <link>https://forminio.github.io/tags/jvm/</link>
-      <pubDate>Sat, 06 Dec 2025 20:30:00 +0800</pubDate>
-      <guid>https://forminio.github.io/tags/jvm/</guid>
+      <title>CAS</title>
+      <link>https://forminio.github.io/tags/cas/</link>
+      <pubDate>Thu, 27 Nov 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/cas/</guid>
       <description></description>
     </item>
     <item>
-      <title>性能</title>
-      <link>https://forminio.github.io/tags/%E6%80%A7%E8%83%BD/</link>
-      <pubDate>Sat, 06 Dec 2025 20:30:00 +0800</pubDate>
-      <guid>https://forminio.github.io/tags/%E6%80%A7%E8%83%BD/</guid>
+      <title>Java并发</title>
+      <link>https://forminio.github.io/tags/java%E5%B9%B6%E5%8F%91/</link>
+      <pubDate>Thu, 27 Nov 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/java%E5%B9%B6%E5%8F%91/</guid>
       <description></description>
     </item>
     <item>
-      <title>Docker</title>
-      <link>https://forminio.github.io/tags/docker/</link>
-      <pubDate>Wed, 22 Oct 2025 11:05:00 +0800</pubDate>
-      <guid>https://forminio.github.io/tags/docker/</guid>
+      <title>Synchronized</title>
+      <link>https://forminio.github.io/tags/synchronized/</link>
+      <pubDate>Thu, 27 Nov 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/synchronized/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>锁</title>
+      <link>https://forminio.github.io/tags/%E9%94%81/</link>
+      <pubDate>Thu, 27 Nov 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E9%94%81/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RabbitMQ</title>
+      <link>https://forminio.github.io/tags/rabbitmq/</link>
+      <pubDate>Wed, 19 Nov 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/rabbitmq/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>可靠性</title>
+      <link>https://forminio.github.io/tags/%E5%8F%AF%E9%9D%A0%E6%80%A7/</link>
+      <pubDate>Wed, 19 Nov 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E5%8F%AF%E9%9D%A0%E6%80%A7/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NLP</title>
+      <link>https://forminio.github.io/tags/nlp/</link>
+      <pubDate>Wed, 12 Nov 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/nlp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SentenceTransformer</title>
+      <link>https://forminio.github.io/tags/sentencetransformer/</link>
+      <pubDate>Wed, 12 Nov 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/sentencetransformer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>相似度</title>
+      <link>https://forminio.github.io/tags/%E7%9B%B8%E4%BC%BC%E5%BA%A6/</link>
+      <pubDate>Wed, 12 Nov 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E7%9B%B8%E4%BC%BC%E5%BA%A6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>向量化</title>
+      <link>https://forminio.github.io/tags/%E5%90%91%E9%87%8F%E5%8C%96/</link>
+      <pubDate>Wed, 12 Nov 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E5%90%91%E9%87%8F%E5%8C%96/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spring</title>
+      <link>https://forminio.github.io/tags/spring/</link>
+      <pubDate>Thu, 06 Nov 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/spring/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>定时任务</title>
+      <link>https://forminio.github.io/tags/%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</link>
+      <pubDate>Thu, 06 Nov 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DeepSeek</title>
+      <link>https://forminio.github.io/tags/deepseek/</link>
+      <pubDate>Sun, 26 Oct 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/deepseek/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLM</title>
+      <link>https://forminio.github.io/tags/llm/</link>
+      <pubDate>Sun, 26 Oct 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>提示词</title>
+      <link>https://forminio.github.io/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D/</link>
+      <pubDate>Sun, 26 Oct 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D/</guid>
       <description></description>
     </item>
     <item>
@@ -252,6 +735,69 @@
       <link>https://forminio.github.io/tags/%E5%AE%B9%E5%99%A8/</link>
       <pubDate>Wed, 22 Oct 2025 11:05:00 +0800</pubDate>
       <guid>https://forminio.github.io/tags/%E5%AE%B9%E5%99%A8/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MVCC</title>
+      <link>https://forminio.github.io/tags/mvcc/</link>
+      <pubDate>Sat, 18 Oct 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/mvcc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>隔离级别</title>
+      <link>https://forminio.github.io/tags/%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%AB/</link>
+      <pubDate>Sat, 18 Oct 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%AB/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>事务</title>
+      <link>https://forminio.github.io/tags/%E4%BA%8B%E5%8A%A1/</link>
+      <pubDate>Sat, 18 Oct 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E4%BA%8B%E5%8A%A1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>参数化</title>
+      <link>https://forminio.github.io/tags/%E5%8F%82%E6%95%B0%E5%8C%96/</link>
+      <pubDate>Thu, 09 Oct 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E5%8F%82%E6%95%B0%E5%8C%96/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>数据驱动</title>
+      <link>https://forminio.github.io/tags/%E6%95%B0%E6%8D%AE%E9%A9%B1%E5%8A%A8/</link>
+      <pubDate>Thu, 09 Oct 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E6%95%B0%E6%8D%AE%E9%A9%B1%E5%8A%A8/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MQTT</title>
+      <link>https://forminio.github.io/tags/mqtt/</link>
+      <pubDate>Sun, 05 Oct 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/mqtt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spring Integration</title>
+      <link>https://forminio.github.io/tags/spring-integration/</link>
+      <pubDate>Sun, 05 Oct 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/spring-integration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>实时数据</title>
+      <link>https://forminio.github.io/tags/%E5%AE%9E%E6%97%B6%E6%95%B0%E6%8D%AE/</link>
+      <pubDate>Sun, 05 Oct 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E5%AE%9E%E6%97%B6%E6%95%B0%E6%8D%AE/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>物联网</title>
+      <link>https://forminio.github.io/tags/%E7%89%A9%E8%81%94%E7%BD%91/</link>
+      <pubDate>Sun, 05 Oct 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/tags/%E7%89%A9%E8%81%94%E7%BD%91/</guid>
       <description></description>
     </item>
     <item>
@@ -273,13 +819,6 @@
       <link>https://forminio.github.io/tags/%E7%BD%91%E7%BB%9C/</link>
       <pubDate>Sun, 07 Sep 2025 15:10:00 +0800</pubDate>
       <guid>https://forminio.github.io/tags/%E7%BD%91%E7%BB%9C/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>MySQL</title>
-      <link>https://forminio.github.io/tags/mysql/</link>
-      <pubDate>Wed, 30 Apr 2025 09:20:00 +0800</pubDate>
-      <guid>https://forminio.github.io/tags/mysql/</guid>
       <description></description>
     </item>
     <item>

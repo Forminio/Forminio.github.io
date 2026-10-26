@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CI · 这是来自forminio的博客</title>
+    <link>https://forminio.github.io/tags/ci/</link>
+    <description>CI · know is know ，no know is no know</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2026 Forminio</copyright>
+    <lastBuildDate>Wed, 20 May 2026 10:00:00 +0800</lastBuildDate>
+    <atom:link href="https://forminio.github.io/tags/ci/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub Actions 给测试搭条无人值守跑道</title>
+      <link>https://forminio.github.io/posts/github-actions-test-ci/</link>
+      <pubDate>Wed, 20 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/github-actions-test-ci/</guid>
+      <description>&lt;p&gt;自动化和&amp;quot;能自动跑&amp;quot;是两回事。我能写好一批 pytest 用例，但之前跑还得靠我在本地敲命令，一忙就忘了跑回归，上线前一天才慌忙补测，晚了。后来我把这堆活儿交给 GitHub Actions：push 上去自动拉依赖、跑测试、出报告、挂了还给我发通知。相当于给测试搭了条无人值守的跑道，人只要负责写用例，其余全自动。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

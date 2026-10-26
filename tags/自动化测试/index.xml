@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>自动化测试 · 这是来自forminio的博客</title>
+    <link>https://forminio.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/</link>
+    <description>自动化测试 · know is know ，no know is no know</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2026 Forminio</copyright>
+    <lastBuildDate>Fri, 05 Jun 2026 10:00:00 +0800</lastBuildDate>
+    <atom:link href="https://forminio.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>自动化测试跑三个月后，怎么保持不崩</title>
+      <link>https://forminio.github.io/posts/automated-test-maintenance/</link>
+      <pubDate>Fri, 05 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/automated-test-maintenance/</guid>
+      <description>&lt;p&gt;自动化刚上线那阵子每天全绿，我还挺得意。可跑满三个月，画风就变了：每天总有几条用例飘红，一查全是环境抖、等待超时、用例互相踩，真业务 bug 反而被这堆&amp;quot;假红&amp;quot;淹没，我每天早上第一件事变成分辨哪个红是真的。那时候我才意识到，自动化不是写完就完事，它是个要一直养的东西。下面这几招是我把它从&amp;quot;天天飘&amp;quot;救回&amp;quot;基本稳&amp;quot;的关键。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GitHub Actions 给测试搭条无人值守跑道</title>
+      <link>https://forminio.github.io/posts/github-actions-test-ci/</link>
+      <pubDate>Wed, 20 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/github-actions-test-ci/</guid>
+      <description>&lt;p&gt;自动化和&amp;quot;能自动跑&amp;quot;是两回事。我能写好一批 pytest 用例，但之前跑还得靠我在本地敲命令，一忙就忘了跑回归，上线前一天才慌忙补测，晚了。后来我把这堆活儿交给 GitHub Actions：push 上去自动拉依赖、跑测试、出报告、挂了还给我发通知。相当于给测试搭了条无人值守的跑道，人只要负责写用例，其余全自动。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>pytest 数据驱动：参数化写测试，少写一半重复代码</title>
+      <link>https://forminio.github.io/posts/pytest-data-driven-testing/</link>
+      <pubDate>Thu, 09 Oct 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/pytest-data-driven-testing/</guid>
+      <description>&lt;p&gt;写接口测试前期我是最原始的做法：一个接口一个用例函数，数据全写死在函数体里。结果一个&amp;quot;查询订单&amp;quot;的接口，我写了七八个几乎一样的分支，就改了订单状态和期望值。后来我才明白，这种场景本来就不该一个个手写，用 pytest 的参数化，一套逻辑喂十几个场景，代码量瞬间砍半还不止。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

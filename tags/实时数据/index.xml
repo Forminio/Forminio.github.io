@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>实时数据 · 这是来自forminio的博客</title>
+    <link>https://forminio.github.io/tags/%E5%AE%9E%E6%97%B6%E6%95%B0%E6%8D%AE/</link>
+    <description>实时数据 · know is know ，no know is no know</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2026 Forminio</copyright>
+    <lastBuildDate>Sun, 05 Oct 2025 10:00:00 +0800</lastBuildDate>
+    <atom:link href="https://forminio.github.io/tags/%E5%AE%9E%E6%97%B6%E6%95%B0%E6%8D%AE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>储能设备 MQTT 实时上报：从接入到落库的完整链路</title>
+      <link>https://forminio.github.io/posts/mqtt-telemetry-ingestion/</link>
+      <pubDate>Sun, 05 Oct 2025 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/mqtt-telemetry-ingestion/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;先说说设备端什么脾气&#xA;    &lt;div id=&#34;先说说设备端什么脾气&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e5%85%88%e8%af%b4%e8%af%b4%e8%ae%be%e5%a4%87%e7%ab%af%e4%bb%80%e4%b9%88%e8%84%be%e6%b0%94&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;储能柜里的设备上报频率说高不高、说低不低，SOC、电压、温度这些量基本是秒级一条，高峰能到几百台集群同时推。一开始我图省事，直接让每台设备连独立 client，一上线后台 broker 链接哗啦涨到几千条，线程池差点被打穿。后来才明白：&lt;strong&gt;设备多、消息频率高&lt;/strong&gt;这条路上，第一件事不是写落库代码，而是先想清楚接入姿势。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>测试报告 · 这是来自forminio的博客</title>
+    <link>https://forminio.github.io/tags/%E6%B5%8B%E8%AF%95%E6%8A%A5%E5%91%8A/</link>
+    <description>测试报告 · know is know ，no know is no know</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2026 Forminio</copyright>
+    <lastBuildDate>Thu, 12 Feb 2026 10:00:00 +0800</lastBuildDate>
+    <atom:link href="https://forminio.github.io/tags/%E6%B5%8B%E8%AF%95%E6%8A%A5%E5%91%8A/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Allure 报告：让自动化结果一眼看懂</title>
+      <link>https://forminio.github.io/posts/allure-test-report/</link>
+      <pubDate>Thu, 12 Feb 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/allure-test-report/</guid>
+      <description>&lt;p&gt;自动化跑完，最怕的不是用例挂，而是挂了以后没人看得懂挂在哪儿。以前 pytest 跑完给个一屏的堆栈，业务一看全是找不到元素、断言失败，只能回头找我。后来我把报告换成 Allure，它能把一条用例拆成步骤、挂上截图、标好层级，跑完点开就是一段&amp;quot;剧情&amp;quot;，问题一眼定位。今天讲讲我是怎么接进去的。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

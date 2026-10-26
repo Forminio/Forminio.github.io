@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>REST · 这是来自forminio的博客</title>
+    <link>https://forminio.github.io/tags/rest/</link>
+    <description>REST · know is know ，no know is no know</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2026 Forminio</copyright>
+    <lastBuildDate>Wed, 28 Jan 2026 10:00:00 +0800</lastBuildDate>
+    <atom:link href="https://forminio.github.io/tags/rest/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>用 Flask 顺手写个小服务：从路由到部署</title>
+      <link>https://forminio.github.io/posts/flask-quick-service/</link>
+      <pubDate>Wed, 28 Jan 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/flask-quick-service/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;为什么用 Flask&#xA;    &lt;div id=&#34;为什么用-flask&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%b8%ba%e4%bb%80%e4%b9%88%e7%94%a8-flask&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;有个内部小需求要暴露几个接口，Java 那套太重，而 Flask 轻、够快，几个人顺手就能撑起来，于是就用它写了。本文不是讲怎么搭大工程，而是把几个我认为真正实用的小环节记下来。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

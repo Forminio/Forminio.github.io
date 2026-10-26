@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>时序数据库 · 这是来自forminio的博客</title>
+    <link>https://forminio.github.io/tags/%E6%97%B6%E5%BA%8F%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+    <description>时序数据库 · know is know ，no know is no know</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2026 Forminio</copyright>
+    <lastBuildDate>Fri, 06 Feb 2026 10:00:00 +0800</lastBuildDate>
+    <atom:link href="https://forminio.github.io/tags/%E6%97%B6%E5%BA%8F%E6%95%B0%E6%8D%AE%E5%BA%93/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>用 InfluxDB 存秒级遥测数据：写入、保留策略与降采样</title>
+      <link>https://forminio.github.io/posts/influxdb-time-series-storage/</link>
+      <pubDate>Fri, 06 Feb 2026 10:00:00 +0800</pubDate>
+      <guid>https://forminio.github.io/posts/influxdb-time-series-storage/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;别再拿关系库硬扛秒级数据&#xA;    &lt;div id=&#34;别再拿关系库硬扛秒级数据&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e5%88%ab%e5%86%8d%e6%8b%bf%e5%85%b3%e7%b3%bb%e5%ba%93%e7%a1%ac%e6%89%9b%e7%a7%92%e7%ba%a7%e6%95%b0%e6%8d%ae&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;储能设备的 SOC、温度、功率每秒一批，攒一天就是上千万行。第一版我用 MySQL 直接插，表膨胀得吓人，查询还得扫区间，索引也救不回来。后来明确一点：&lt;strong&gt;秒级时序这种数据，就该给时序库&lt;/strong&gt;。InfluxDB 的存储引擎和压缩机制就是为这种&amp;quot;高频追加、按时间切分&amp;quot;的量身设计，落盘占用和查询效率都不是关系库能比的。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
