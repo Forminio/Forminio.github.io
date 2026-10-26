@@ -14,7 +14,7 @@
       <link>https://forminio.github.io/posts/apifox-charles-api-debug/</link>
       <pubDate>Thu, 05 Mar 2026 10:00:00 +0800</pubDate>
       <guid>https://forminio.github.io/posts/apifox-charles-api-debug/</guid>
-      <description>&lt;p&gt;联调期最头疼的事，是&amp;quot;明明前端调了后端接口，后端说没收到&amp;quot;。两句话谁都觉得自己对，最后往往是我拿抓包工具一拦，真相立刻浮出来。我日常用的组合是 Charles 抓包看真实流量，配合接口测试工具发请求、对比行为。这套东西治好了我不少&amp;quot;玄学联调&amp;quot;的毛病。&lt;/p&gt;</description>
+      <description>&lt;p&gt;联调期最常遇到的僵局，是&amp;quot;明明前端调了后端接口，后端说没收到&amp;quot;。两边谁都觉得自己对，最后往往拿抓包工具一拦，真相就浮出来。一套常用的组合是 Charles 抓包看真实流量，配合接口测试工具发请求、对比行为。这套做法能把不少说不清的&amp;quot;玄学联调&amp;quot;问题按到源头。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -14,7 +14,7 @@
       <link>https://forminio.github.io/posts/github-actions-test-ci/</link>
       <pubDate>Wed, 20 May 2026 10:00:00 +0800</pubDate>
       <guid>https://forminio.github.io/posts/github-actions-test-ci/</guid>
-      <description>&lt;p&gt;自动化和&amp;quot;能自动跑&amp;quot;是两回事。我能写好一批 pytest 用例，但之前跑还得靠我在本地敲命令，一忙就忘了跑回归，上线前一天才慌忙补测，晚了。后来我把这堆活儿交给 GitHub Actions：push 上去自动拉依赖、跑测试、出报告、挂了还给我发通知。相当于给测试搭了条无人值守的跑道，人只要负责写用例，其余全自动。&lt;/p&gt;</description>
+      <description>&lt;p&gt;自动化和&amp;quot;能自动跑&amp;quot;是两回事。写好一批 pytest 用例是基本功，但如果跑还得靠本地敲命令，一忙就忘了跑回归，上线前一天才慌忙补测就晚了。把这一堆活儿交给 GitHub Actions：push 上去自动拉依赖、跑测试、出报告、挂了还自动通知。相当于给测试搭了条无人值守的跑道，人只要负责写用例，其余全自动。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

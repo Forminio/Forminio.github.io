@@ -14,7 +14,7 @@
       <link>https://forminio.github.io/posts/pytest-data-driven-testing/</link>
       <pubDate>Thu, 09 Oct 2025 10:00:00 +0800</pubDate>
       <guid>https://forminio.github.io/posts/pytest-data-driven-testing/</guid>
-      <description>&lt;p&gt;写接口测试前期我是最原始的做法：一个接口一个用例函数，数据全写死在函数体里。结果一个&amp;quot;查询订单&amp;quot;的接口，我写了七八个几乎一样的分支，就改了订单状态和期望值。后来我才明白，这种场景本来就不该一个个手写，用 pytest 的参数化，一套逻辑喂十几个场景，代码量瞬间砍半还不止。&lt;/p&gt;</description>
+      <description>&lt;p&gt;写接口测试最原始的做法，是一个接口一个用例函数，数据全写死在函数体里。结果一个&amp;quot;查询订单&amp;quot;的接口，要写七八个几乎一样的分支，只改动订单状态和期望值。这种场景本就不该一个个手写，用 pytest 的参数化，一套逻辑喂十几个场景，代码量能砍半还不止。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

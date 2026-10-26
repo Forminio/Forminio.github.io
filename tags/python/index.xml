@@ -14,21 +14,21 @@
       <link>https://forminio.github.io/posts/flask-quick-service/</link>
       <pubDate>Wed, 28 Jan 2026 10:00:00 +0800</pubDate>
       <guid>https://forminio.github.io/posts/flask-quick-service/</guid>
-      <description>&lt;h2 class=&#34;relative group&#34;&gt;为什么用 Flask&#xA;    &lt;div id=&#34;为什么用-flask&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%b8%ba%e4%bb%80%e4%b9%88%e7%94%a8-flask&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;有个内部小需求要暴露几个接口，Java 那套太重，而 Flask 轻、够快，几个人顺手就能撑起来，于是就用它写了。本文不是讲怎么搭大工程，而是把几个我认为真正实用的小环节记下来。&lt;/p&gt;</description>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;为什么用 Flask&#xA;    &lt;div id=&#34;为什么用-flask&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%b8%ba%e4%bb%80%e4%b9%88%e7%94%a8-flask&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;当内部需要快速暴露几个轻量接口时，Java 那套往往偏重，而 Flask 轻、够快，几个人顺手就能撑起来。本文不是讲怎么搭大工程，而是把几个真正实用的小环节记下来。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Selenium4 Page Object：UI 自动化从脚本到框架</title>
       <link>https://forminio.github.io/posts/selenium-pageobject-framework/</link>
       <pubDate>Mon, 05 Jan 2026 10:00:00 +0800</pubDate>
       <guid>https://forminio.github.io/posts/selenium-pageobject-framework/</guid>
-      <description>&lt;p&gt;我最开始写 UI 自动化就是&amp;quot;脚本流&amp;quot;：一个文件里 find_element、click、断言全堆一块，跑通就完事。结果一个注册流程写了两百行，页面改个 button 的 class，我得满文件找哪一行在点它。后来换成 Page Object 模式，把每一页封装成一个类，元素定位和页面动作收进去，测试方法只负责&amp;quot;讲故事&amp;quot;，这才算从脚本长成一个能维护的东西。&lt;/p&gt;</description>
+      <description>&lt;p&gt;写 UI 自动化有一种常见起步是&amp;quot;脚本流&amp;quot;：一个文件里 find_element、click、断言全堆一块，跑通就完事。结果一个注册流程写了两百行，页面改个 button 的 class，得满文件找哪一行在点它。换成 Page Object 模式，把每一页封装成一个类，元素定位和页面动作收进去，测试方法只负责&amp;quot;讲故事&amp;quot;，才算从脚本长成一个能维护的东西。&lt;/p&gt;</description>
     </item>
     <item>
       <title>爬虫入门：请求头、频率控制与反爬的攻与守</title>
       <link>https://forminio.github.io/posts/python-crawler-anti-scraping/</link>
       <pubDate>Mon, 29 Dec 2025 10:00:00 +0800</pubDate>
       <guid>https://forminio.github.io/posts/python-crawler-anti-scraping/</guid>
-      <description>&lt;h2 class=&#34;relative group&#34;&gt;不要一上来就裸 requests&#xA;    &lt;div id=&#34;不要一上来就裸-requests&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%b8%8d%e8%a6%81%e4%b8%80%e4%b8%8a%e6%9d%a5%e5%b0%b1%e8%a3%b8-requests&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;第一次写爬虫图省事，直接 requests.get(url) 就去抓，结果刚跑几十个就返回一堆 403。目标站反爬很直接，先看 User-Agent 一眼认出我是程序。&lt;/p&gt;</description>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;不要一上来就裸 requests&#xA;    &lt;div id=&#34;不要一上来就裸-requests&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%e4%b8%8d%e8%a6%81%e4%b8%80%e4%b8%8a%e6%9d%a5%e5%b0%b1%e8%a3%b8-requests&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;新手写爬虫容易图省事，直接 requests.get(url) 就去抓，结果刚跑几十个就返回一堆 403。目标站反爬很直接，光看 User-Agent 一眼就能认出请求是程序发的。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
